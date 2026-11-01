@@ -1,0 +1,162 @@
+{
+ "format": "forest-map-kit-world",
+ "version": 2,
+ "generator": "Forest Map Kit 2.0",
+ "cols": 2,
+ "rows": 2,
+ "cellSize": 1254,
+ "pixelsPerMetre": 37,
+ "outerEdgesBlocked": true,
+ "travel": "Leaving a map across an edge enters the neighbour map (neighbours.N/E/S/W) at the same place on its opposite edge: east edge x = cellSize -> neighbour x = 0, same y. A null neighbour is a wall.",
+ "cells": {
+  "A1": {
+   "col": 0,
+   "row": 0,
+   "folder": "cells/A1/",
+   "neighbours": {
+    "N": null,
+    "S": "A2",
+    "W": null,
+    "E": "B1"
+   },
+   "roadsAtEdges": {
+    "N": [],
+    "S": [],
+    "W": [],
+    "E": []
+   },
+   "tile": "tiles/forest_tile_01_balanced.png",
+   "overlay": "overlays/forest_overlay_16.png",
+   "theme": "pond",
+   "seed": "599195"
+  },
+  "B1": {
+   "col": 1,
+   "row": 0,
+   "folder": "cells/B1/",
+   "neighbours": {
+    "N": null,
+    "S": "B2",
+    "W": "A1",
+    "E": null
+   },
+   "roadsAtEdges": {
+    "N": [],
+    "S": [],
+    "W": [],
+    "E": []
+   },
+   "tile": "tiles/forest_tile_02_more-earth.png",
+   "overlay": "overlays/forest_overlay_24.png",
+   "theme": "mushroom",
+   "seed": "97694"
+  },
+  "A2": {
+   "col": 0,
+   "row": 1,
+   "folder": "cells/A2/",
+   "neighbours": {
+    "N": "A1",
+    "S": null,
+    "W": null,
+    "E": "B2"
+   },
+   "roadsAtEdges": {
+    "N": [],
+    "S": [],
+    "W": [],
+    "E": []
+   },
+   "tile": "tiles/forest_tile_02_more-earth.png",
+   "overlay": "overlays/forest_overlay_10.png",
+   "theme": "mixed",
+   "seed": "96947"
+  },
+  "B2": {
+   "col": 1,
+   "row": 1,
+   "folder": "cells/B2/",
+   "neighbours": {
+    "N": "B1",
+    "S": null,
+    "W": "A2",
+    "E": null
+   },
+   "roadsAtEdges": {
+    "N": [],
+    "S": [],
+    "W": [],
+    "E": []
+   },
+   "tile": "tiles/forest_tile_02_more-earth.png",
+   "overlay": "overlays/forest_overlay_04.png",
+   "theme": "rocky",
+   "seed": "342258"
+  }
+ },
+ "project": {
+  "format": "forest-map-kit-world",
+  "version": 2,
+  "cols": 2,
+  "rows": 2,
+  "outerExits": false,
+  "cells": {
+   "0,0": {
+    "spec": {
+     "tile": "forest_tile_01_balanced",
+     "overlay": "forest_overlay_16",
+     "theme": "pond",
+     "density": 100,
+     "seed": "599195",
+     "clearCentre": true
+    },
+    "tile": "forest_tile_01_balanced",
+    "overlay": "forest_overlay_16",
+    "theme": "pond",
+    "locked": false
+   },
+   "1,0": {
+    "spec": {
+     "tile": "forest_tile_02_more-earth",
+     "overlay": "forest_overlay_24",
+     "theme": "mushroom",
+     "density": 100,
+     "seed": "97694",
+     "clearCentre": false
+    },
+    "tile": "forest_tile_02_more-earth",
+    "overlay": "forest_overlay_24",
+    "theme": "mushroom",
+    "locked": false
+   },
+   "0,1": {
+    "spec": {
+     "tile": "forest_tile_02_more-earth",
+     "overlay": "forest_overlay_10",
+     "theme": "mixed",
+     "density": 100,
+     "seed": "96947",
+     "clearCentre": false
+    },
+    "tile": "forest_tile_02_more-earth",
+    "overlay": "forest_overlay_10",
+    "theme": "mixed",
+    "locked": false
+   },
+   "1,1": {
+    "spec": {
+     "tile": "forest_tile_02_more-earth",
+     "overlay": "forest_overlay_04",
+     "theme": "rocky",
+     "density": 100,
+     "seed": "342258",
+     "clearCentre": false
+    },
+    "tile": "forest_tile_02_more-earth",
+    "overlay": "forest_overlay_04",
+    "theme": "rocky",
+    "locked": false
+   }
+  }
+ }
+}

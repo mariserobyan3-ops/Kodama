@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://bxep7416c0gqe"]
+
+[ext_resource type="Script" uid="uid://kns4w8pbnce" path="res://menu.gd" id="1_lti8b"]
+[ext_resource type="Texture2D" uid="uid://qphwsa73i68l" path="res://Forest&&Moon Pixel Art/Preview/BackGround.png" id="2_ouk20"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ouk20"]
+bg_color = Color(0.1254902, 0.16470589, 0.20784314, 0.8509804)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mae5d"]
+bg_color = Color(0.2, 0.33333334, 0.26666668, 0.73333335)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_kvgk3"]
+font_size = 48
+
+[sub_resource type="LabelSettings" id="LabelSettings_wmwd2"]
+
+[node name="menu" type="Node2D" unique_id=1492365941]
+script = ExtResource("1_lti8b")
+
+[node name="BackGround" type="Sprite2D" parent="." unique_id=1665507658]
+modulate = Color(0.6666667, 0.70980394, 0.78431374, 1)
+position = Vector2(588, 324)
+scale = Vector2(0.36, 0.36)
+texture = ExtResource("2_ouk20")
+
+[node name="play" type="Button" parent="." unique_id=1894011456]
+custom_minimum_size = Vector2(300, 64)
+offset_left = 740.0
+offset_top = 250.0
+offset_right = 1040.0
+offset_bottom = 329.0
+theme_override_font_sizes/font_size = 58
+theme_override_styles/normal = SubResource("StyleBoxFlat_ouk20")
+theme_override_styles/hover = SubResource("StyleBoxFlat_mae5d")
+text = "Play"
+
+[node name="quit" type="Button" parent="." unique_id=1062215618]
+custom_minimum_size = Vector2(300, 64)
+offset_left = 740.0
+offset_top = 350.0
+offset_right = 1040.0
+offset_bottom = 429.0
+theme_override_font_sizes/font_size = 58
+theme_override_styles/normal = SubResource("StyleBoxFlat_ouk20")
+theme_override_styles/hover = SubResource("StyleBoxFlat_mae5d")
+text = "Quit"
+
+[node name="title" type="Label" parent="." unique_id=1163705297]
+offset_left = 107.0
+offset_top = 77.0
+offset_right = 381.0
+offset_bottom = 144.0
+text = "K O D A M A"
+label_settings = SubResource("LabelSettings_kvgk3")
+
+[node name="subtitle" type="Label" parent="." unique_id=260986230]
+offset_left = 146.0
+offset_top = 137.0
+offset_right = 339.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 18
+text = "THE FOREST REMEMBERS"
+label_settings = SubResource("LabelSettings_wmwd2")
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]

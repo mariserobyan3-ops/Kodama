@@ -1,0 +1,28 @@
+Tiny Realms - Forest Map Kit
+ASSET LICENSE
+
+By buying or downloading this pack you get a non-exclusive, worldwide,
+perpetual licence to use the files under these terms.
+
+YOU MAY
+  - Use the assets in any number of personal and commercial projects
+    (games, apps, videos, prototypes, game jams).
+  - Edit, recolour, resize and combine the assets to fit your project.
+  - Ship the assets as part of your finished project.
+
+YOU MAY NOT
+  - Resell, share or redistribute the assets, edited or not, on their own
+    or as part of another asset pack, template, tool or stock library.
+  - Offer the assets for download in a form where they can be taken out
+    and reused by others outside your project.
+  - Use the assets for NFTs or other blockchain tokens.
+  - Claim to be the original author of the assets.
+
+CREDIT
+  Not required, always appreciated: "Tiny Realms".
+
+DISCLOSURE
+  The artwork was created with generative AI tools and then selected,
+  resized and edited by the author.
+
+The assets are provided "as is", without warranty of any kind.

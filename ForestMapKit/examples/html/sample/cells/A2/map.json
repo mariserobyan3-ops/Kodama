@@ -1,0 +1,1934 @@
+{
+ "format": "forest-map-kit-map",
+ "version": 2,
+ "generator": "Forest Map Kit 2.0",
+ "cell": "A2",
+ "seed": "96947",
+ "theme": "mixed",
+ "size": [
+  1254,
+  1254
+ ],
+ "pixelsPerMetre": 37,
+ "ground": {
+  "tile": "tiles/forest_tile_02_more-earth.png",
+  "overlay": "overlays/forest_overlay_10.png"
+ },
+ "roadsAtEdges": {
+  "N": [],
+  "S": [],
+  "W": [],
+  "E": []
+ },
+ "water": null,
+ "noGo": [],
+ "objects": [
+  {
+   "file": "objects/pine/pine_015.png",
+   "folder": "pine",
+   "x": 1026,
+   "y": -427,
+   "w": 320,
+   "h": 554,
+   "footX": 1190,
+   "footY": 76,
+   "collision": "standing",
+   "sortY": 39,
+   "feet": [
+    [
+     1113,
+     19
+    ],
+    [
+     1113,
+     27
+    ],
+    [
+     1113,
+     34
+    ],
+    [
+     1113,
+     42
+    ],
+    [
+     1113,
+     50
+    ],
+    [
+     1113,
+     57
+    ],
+    [
+     1113,
+     65
+    ],
+    [
+     1113,
+     72
+    ],
+    [
+     1113,
+     80
+    ],
+    [
+     1267,
+     80
+    ],
+    [
+     1267,
+     72
+    ],
+    [
+     1267,
+     65
+    ],
+    [
+     1267,
+     57
+    ],
+    [
+     1267,
+     50
+    ],
+    [
+     1267,
+     42
+    ],
+    [
+     1267,
+     34
+    ],
+    [
+     1267,
+     27
+    ],
+    [
+     1247,
+     19
+    ]
+   ],
+   "shape": "pine"
+  },
+  {
+   "file": "objects/big-rock/big-rock_005.png",
+   "folder": "big-rock",
+   "x": 54,
+   "y": -9,
+   "w": 99,
+   "h": 95,
+   "footX": 108,
+   "footY": 71,
+   "collision": "standing",
+   "sortY": 48,
+   "feet": [
+    [
+     48,
+     61
+    ],
+    [
+     59,
+     64
+    ],
+    [
+     71,
+     74
+    ],
+    [
+     83,
+     79
+    ],
+    [
+     97,
+     84
+    ],
+    [
+     109,
+     87
+    ],
+    [
+     123,
+     81
+    ],
+    [
+     135,
+     76
+    ],
+    [
+     147,
+     70
+    ],
+    [
+     158,
+     59
+    ],
+    [
+     158,
+     58
+    ],
+    [
+     147,
+     46
+    ],
+    [
+     135,
+     32
+    ],
+    [
+     122,
+     29
+    ],
+    [
+     109,
+     31
+    ],
+    [
+     97,
+     32
+    ],
+    [
+     83,
+     34
+    ],
+    [
+     71,
+     43
+    ],
+    [
+     59,
+     42
+    ],
+    [
+     48,
+     59
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/big-rock/big-rock_006.png",
+   "folder": "big-rock",
+   "x": 537,
+   "y": -44,
+   "w": 272,
+   "h": 177,
+   "footX": 670,
+   "footY": 99,
+   "collision": "standing",
+   "sortY": 66,
+   "feet": [
+    [
+     532,
+     48
+    ],
+    [
+     562,
+     117
+    ],
+    [
+     593,
+     123
+    ],
+    [
+     623,
+     125
+    ],
+    [
+     656,
+     124
+    ],
+    [
+     689,
+     129
+    ],
+    [
+     722,
+     120
+    ],
+    [
+     752,
+     129
+    ],
+    [
+     783,
+     111
+    ],
+    [
+     813,
+     107
+    ],
+    [
+     813,
+     89
+    ],
+    [
+     783,
+     66
+    ],
+    [
+     753,
+     67
+    ],
+    [
+     722,
+     51
+    ],
+    [
+     690,
+     49
+    ],
+    [
+     656,
+     36
+    ],
+    [
+     624,
+     34
+    ],
+    [
+     592,
+     49
+    ],
+    [
+     562,
+     50
+    ],
+    [
+     532,
+     43
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/mushroom/mushroom_001.png",
+   "folder": "mushroom",
+   "x": 204,
+   "y": 45,
+   "w": 30,
+   "h": 27,
+   "footX": 219,
+   "footY": 71,
+   "collision": "none",
+   "sortY": 71
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_001.png",
+   "folder": "fern-grass",
+   "x": 210,
+   "y": 28,
+   "w": 74,
+   "h": 52,
+   "footX": 247,
+   "footY": 76,
+   "collision": "none",
+   "sortY": 76
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 596,
+   "y": 54,
+   "w": 40,
+   "h": 28,
+   "footX": 616,
+   "footY": 76,
+   "collision": "none",
+   "sortY": 76
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 516,
+   "y": 4,
+   "w": 107,
+   "h": 95,
+   "footX": 571,
+   "footY": 83,
+   "collision": "none",
+   "sortY": 83
+  },
+  {
+   "file": "objects/branch/branch_009.png",
+   "folder": "branch",
+   "x": 1027,
+   "y": 28,
+   "w": 113,
+   "h": 104,
+   "footX": 1078,
+   "footY": 83,
+   "collision": "none",
+   "sortY": 83
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 1091,
+   "y": 43,
+   "w": 75,
+   "h": 60,
+   "footX": 1130,
+   "footY": 94,
+   "collision": "none",
+   "sortY": 94
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 54,
+   "y": 72,
+   "w": 43,
+   "h": 40,
+   "footX": 76,
+   "footY": 105,
+   "collision": "none",
+   "sortY": 105
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 98,
+   "y": 66,
+   "w": 75,
+   "h": 61,
+   "footX": 137,
+   "footY": 117,
+   "collision": "none",
+   "sortY": 117
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 153,
+   "y": 46,
+   "w": 107,
+   "h": 95,
+   "footX": 208,
+   "footY": 125,
+   "collision": "none",
+   "sortY": 125
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_005.png",
+   "folder": "fern-grass",
+   "x": 1073,
+   "y": 82,
+   "w": 75,
+   "h": 48,
+   "footX": 1110,
+   "footY": 126,
+   "collision": "none",
+   "sortY": 126
+  },
+  {
+   "file": "objects/mushroom/mushroom_013.png",
+   "folder": "mushroom",
+   "x": 23,
+   "y": 69,
+   "w": 80,
+   "h": 64,
+   "footX": 63,
+   "footY": 132,
+   "collision": "none",
+   "sortY": 132
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 1115,
+   "y": 101,
+   "w": 37,
+   "h": 40,
+   "footX": 1133,
+   "footY": 135,
+   "collision": "none",
+   "sortY": 135
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_001.png",
+   "folder": "fern-grass",
+   "x": 55,
+   "y": 92,
+   "w": 74,
+   "h": 52,
+   "footX": 92,
+   "footY": 140,
+   "collision": "none",
+   "sortY": 140
+  },
+  {
+   "file": "objects/mushroom/mushroom_009.png",
+   "folder": "mushroom",
+   "x": 144,
+   "y": 112,
+   "w": 50,
+   "h": 38,
+   "footX": 168,
+   "footY": 140,
+   "collision": "none",
+   "sortY": 140
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 1159,
+   "y": 108,
+   "w": 43,
+   "h": 40,
+   "footX": 1181,
+   "footY": 141,
+   "collision": "none",
+   "sortY": 141
+  },
+  {
+   "file": "objects/bush/bush_009.png",
+   "folder": "bush",
+   "x": 105,
+   "y": 96,
+   "w": 75,
+   "h": 63,
+   "footX": 145,
+   "footY": 147,
+   "collision": "none",
+   "sortY": 147
+  },
+  {
+   "file": "objects/rock/rock_011.png",
+   "folder": "rock",
+   "x": 48,
+   "y": 135,
+   "w": 40,
+   "h": 26,
+   "footX": 72,
+   "footY": 157,
+   "collision": "none",
+   "sortY": 157
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 1155,
+   "y": 126,
+   "w": 75,
+   "h": 60,
+   "footX": 1194,
+   "footY": 177,
+   "collision": "none",
+   "sortY": 177
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 615,
+   "y": 160,
+   "w": 40,
+   "h": 25,
+   "footX": 638,
+   "footY": 181,
+   "collision": "none",
+   "sortY": 181
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 692,
+   "y": 154,
+   "w": 43,
+   "h": 40,
+   "footX": 714,
+   "footY": 187,
+   "collision": "none",
+   "sortY": 187
+  },
+  {
+   "file": "objects/mushroom/mushroom_001.png",
+   "folder": "mushroom",
+   "x": 56,
+   "y": 324,
+   "w": 30,
+   "h": 27,
+   "footX": 71,
+   "footY": 350,
+   "collision": "none",
+   "sortY": 350
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_004.png",
+   "folder": "fern-grass",
+   "x": 30,
+   "y": 323,
+   "w": 75,
+   "h": 47,
+   "footX": 67,
+   "footY": 366,
+   "collision": "none",
+   "sortY": 366
+  },
+  {
+   "file": "objects/mushroom/mushroom_007.png",
+   "folder": "mushroom",
+   "x": 73,
+   "y": 358,
+   "w": 50,
+   "h": 39,
+   "footX": 98,
+   "footY": 396,
+   "collision": "none",
+   "sortY": 396
+  },
+  {
+   "file": "objects/mushroom/mushroom_013.png",
+   "folder": "mushroom",
+   "x": 27,
+   "y": 337,
+   "w": 80,
+   "h": 64,
+   "footX": 67,
+   "footY": 400,
+   "collision": "none",
+   "sortY": 400
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 44,
+   "y": 393,
+   "w": 37,
+   "h": 40,
+   "footX": 62,
+   "footY": 427,
+   "collision": "none",
+   "sortY": 427
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 88,
+   "y": 378,
+   "w": 74,
+   "h": 65,
+   "footX": 126,
+   "footY": 431,
+   "collision": "none",
+   "sortY": 431
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 135,
+   "y": 409,
+   "w": 31,
+   "h": 40,
+   "footX": 149,
+   "footY": 442,
+   "collision": "none",
+   "sortY": 442
+  },
+  {
+   "file": "objects/mushroom/mushroom_012.png",
+   "folder": "mushroom",
+   "x": 35,
+   "y": 383,
+   "w": 80,
+   "h": 68,
+   "footX": 75,
+   "footY": 450,
+   "collision": "none",
+   "sortY": 450
+  },
+  {
+   "file": "objects/bush/bush_014.png",
+   "folder": "bush",
+   "x": 62,
+   "y": 407,
+   "w": 115,
+   "h": 86,
+   "footX": 121,
+   "footY": 483,
+   "collision": "none",
+   "sortY": 483
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 39,
+   "y": 471,
+   "w": 74,
+   "h": 65,
+   "footX": 77,
+   "footY": 524,
+   "collision": "none",
+   "sortY": 524
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 108,
+   "y": 498,
+   "w": 37,
+   "h": 40,
+   "footX": 126,
+   "footY": 532,
+   "collision": "none",
+   "sortY": 532
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 52,
+   "y": 517,
+   "w": 75,
+   "h": 36,
+   "footX": 89,
+   "footY": 550,
+   "collision": "none",
+   "sortY": 550
+  },
+  {
+   "file": "objects/pine/pine_009.png",
+   "folder": "pine",
+   "x": 6,
+   "y": 431,
+   "w": 125,
+   "h": 210,
+   "footX": 72,
+   "footY": 621,
+   "collision": "standing",
+   "sortY": 607,
+   "feet": [
+    [
+     39,
+     598
+    ],
+    [
+     39,
+     602
+    ],
+    [
+     38,
+     605
+    ],
+    [
+     38,
+     609
+    ],
+    [
+     38,
+     612
+    ],
+    [
+     38,
+     614
+    ],
+    [
+     38,
+     618
+    ],
+    [
+     39,
+     621
+    ],
+    [
+     39,
+     625
+    ],
+    [
+     105,
+     625
+    ],
+    [
+     105,
+     621
+    ],
+    [
+     106,
+     618
+    ],
+    [
+     106,
+     614
+    ],
+    [
+     106,
+     612
+    ],
+    [
+     106,
+     609
+    ],
+    [
+     106,
+     605
+    ],
+    [
+     105,
+     602
+    ],
+    [
+     98,
+     598
+    ]
+   ],
+   "shape": "pine"
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 26,
+   "y": 611,
+   "w": 74,
+   "h": 65,
+   "footX": 64,
+   "footY": 664,
+   "collision": "none",
+   "sortY": 664
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 89,
+   "y": 619,
+   "w": 75,
+   "h": 61,
+   "footX": 128,
+   "footY": 670,
+   "collision": "none",
+   "sortY": 670
+  },
+  {
+   "file": "objects/bush/bush_014.png",
+   "folder": "bush",
+   "x": 5,
+   "y": 939,
+   "w": 115,
+   "h": 86,
+   "footX": 64,
+   "footY": 1015,
+   "collision": "none",
+   "sortY": 1015
+  },
+  {
+   "file": "objects/bush/bush_003.png",
+   "folder": "bush",
+   "x": 114,
+   "y": 910,
+   "w": 92,
+   "h": 134,
+   "footX": 162,
+   "footY": 1035,
+   "collision": "none",
+   "sortY": 1035
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 28,
+   "y": 1018,
+   "w": 75,
+   "h": 36,
+   "footX": 65,
+   "footY": 1051,
+   "collision": "none",
+   "sortY": 1051
+  },
+  {
+   "file": "objects/bush/bush_009.png",
+   "folder": "bush",
+   "x": 95,
+   "y": 1000,
+   "w": 75,
+   "h": 63,
+   "footX": 135,
+   "footY": 1051,
+   "collision": "none",
+   "sortY": 1051
+  },
+  {
+   "file": "objects/broadleaf-tree/broadleaf-tree_001.png",
+   "folder": "broadleaf-tree",
+   "x": 12,
+   "y": 802,
+   "w": 181,
+   "h": 320,
+   "footX": 101,
+   "footY": 1103,
+   "collision": "standing",
+   "sortY": 1060,
+   "feet": [
+    [
+     90,
+     1036
+    ],
+    [
+     86,
+     1045
+    ],
+    [
+     83,
+     1053
+    ],
+    [
+     86,
+     1062
+    ],
+    [
+     84,
+     1072
+    ],
+    [
+     69,
+     1082
+    ],
+    [
+     57,
+     1091
+    ],
+    [
+     54,
+     1099
+    ],
+    [
+     54,
+     1107
+    ],
+    [
+     159,
+     1107
+    ],
+    [
+     155,
+     1099
+    ],
+    [
+     148,
+     1091
+    ],
+    [
+     143,
+     1082
+    ],
+    [
+     134,
+     1072
+    ],
+    [
+     124,
+     1062
+    ],
+    [
+     123,
+     1053
+    ],
+    [
+     121,
+     1044
+    ],
+    [
+     124,
+     1036
+    ]
+   ],
+   "shape": "broadleaf-tree"
+  },
+  {
+   "file": "objects/rock/rock_007.png",
+   "folder": "rock",
+   "x": 198,
+   "y": 1016,
+   "w": 94,
+   "h": 95,
+   "footX": 245,
+   "footY": 1089,
+   "collision": "standing",
+   "sortY": 1074,
+   "feet": [
+    [
+     193,
+     1085
+    ],
+    [
+     203,
+     1103
+    ],
+    [
+     214,
+     1104
+    ],
+    [
+     225,
+     1110
+    ],
+    [
+     238,
+     1112
+    ],
+    [
+     252,
+     1109
+    ],
+    [
+     264,
+     1109
+    ],
+    [
+     275,
+     1107
+    ],
+    [
+     285,
+     1105
+    ],
+    [
+     296,
+     1096
+    ],
+    [
+     296,
+     1090
+    ],
+    [
+     286,
+     1074
+    ],
+    [
+     275,
+     1072
+    ],
+    [
+     263,
+     1059
+    ],
+    [
+     251,
+     1055
+    ],
+    [
+     238,
+     1057
+    ],
+    [
+     226,
+     1061
+    ],
+    [
+     214,
+     1063
+    ],
+    [
+     203,
+     1079
+    ],
+    [
+     193,
+     1083
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_004.png",
+   "folder": "fern-grass",
+   "x": 153,
+   "y": 1046,
+   "w": 75,
+   "h": 47,
+   "footX": 190,
+   "footY": 1089,
+   "collision": "none",
+   "sortY": 1089
+  },
+  {
+   "file": "objects/mushroom/mushroom_004.png",
+   "folder": "mushroom",
+   "x": 204,
+   "y": 1079,
+   "w": 30,
+   "h": 30,
+   "footX": 217,
+   "footY": 1100,
+   "collision": "none",
+   "sortY": 1100
+  },
+  {
+   "file": "objects/pine/pine_013.png",
+   "folder": "pine",
+   "x": 957,
+   "y": 634,
+   "w": 320,
+   "h": 556,
+   "footX": 1128,
+   "footY": 1141,
+   "collision": "standing",
+   "sortY": 1104,
+   "feet": [
+    [
+     1095,
+     1083
+    ],
+    [
+     1079,
+     1091
+    ],
+    [
+     1066,
+     1099
+    ],
+    [
+     1051,
+     1107
+    ],
+    [
+     1051,
+     1114
+    ],
+    [
+     1051,
+     1122
+    ],
+    [
+     1051,
+     1130
+    ],
+    [
+     1051,
+     1137
+    ],
+    [
+     1051,
+     1144
+    ],
+    [
+     1205,
+     1145
+    ],
+    [
+     1205,
+     1137
+    ],
+    [
+     1205,
+     1130
+    ],
+    [
+     1205,
+     1122
+    ],
+    [
+     1205,
+     1114
+    ],
+    [
+     1205,
+     1107
+    ],
+    [
+     1205,
+     1099
+    ],
+    [
+     1205,
+     1092
+    ],
+    [
+     1205,
+     1084
+    ]
+   ],
+   "shape": "pine"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 136,
+   "y": 1070,
+   "w": 74,
+   "h": 52,
+   "footX": 172,
+   "footY": 1118,
+   "collision": "none",
+   "sortY": 1118
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 181,
+   "y": 1089,
+   "w": 43,
+   "h": 40,
+   "footX": 203,
+   "footY": 1122,
+   "collision": "none",
+   "sortY": 1122
+  },
+  {
+   "file": "objects/mushroom/mushroom_005.png",
+   "folder": "mushroom",
+   "x": 706,
+   "y": 1108,
+   "w": 30,
+   "h": 26,
+   "footX": 721,
+   "footY": 1133,
+   "collision": "none",
+   "sortY": 1133
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 185,
+   "y": 1006,
+   "w": 92,
+   "h": 139,
+   "footX": 232,
+   "footY": 1134,
+   "collision": "none",
+   "sortY": 1134
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 1008,
+   "y": 1125,
+   "w": 40,
+   "h": 25,
+   "footX": 1031,
+   "footY": 1146,
+   "collision": "none",
+   "sortY": 1146
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 221,
+   "y": 1097,
+   "w": 75,
+   "h": 61,
+   "footX": 260,
+   "footY": 1148,
+   "collision": "none",
+   "sortY": 1148
+  },
+  {
+   "file": "objects/big-rock/big-rock_004.png",
+   "folder": "big-rock",
+   "x": 846,
+   "y": 1031,
+   "w": 266,
+   "h": 192,
+   "footX": 982,
+   "footY": 1192,
+   "collision": "standing",
+   "sortY": 1152,
+   "feet": [
+    [
+     840,
+     1174
+    ],
+    [
+     869,
+     1202
+    ],
+    [
+     899,
+     1202
+    ],
+    [
+     929,
+     1217
+    ],
+    [
+     962,
+     1221
+    ],
+    [
+     995,
+     1218
+    ],
+    [
+     1027,
+     1225
+    ],
+    [
+     1057,
+     1217
+    ],
+    [
+     1088,
+     1193
+    ],
+    [
+     1117,
+     1189
+    ],
+    [
+     1117,
+     1188
+    ],
+    [
+     1088,
+     1155
+    ],
+    [
+     1058,
+     1156
+    ],
+    [
+     1028,
+     1138
+    ],
+    [
+     994,
+     1116
+    ],
+    [
+     962,
+     1126
+    ],
+    [
+     929,
+     1147
+    ],
+    [
+     900,
+     1134
+    ],
+    [
+     869,
+     1158
+    ],
+    [
+     840,
+     1171
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/mushroom/mushroom_012.png",
+   "folder": "mushroom",
+   "x": 157,
+   "y": 1093,
+   "w": 80,
+   "h": 68,
+   "footX": 197,
+   "footY": 1160,
+   "collision": "none",
+   "sortY": 1160
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 896,
+   "y": 1127,
+   "w": 31,
+   "h": 40,
+   "footX": 910,
+   "footY": 1160,
+   "collision": "none",
+   "sortY": 1160
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_001.png",
+   "folder": "fern-grass",
+   "x": 188,
+   "y": 1115,
+   "w": 74,
+   "h": 52,
+   "footX": 225,
+   "footY": 1163,
+   "collision": "none",
+   "sortY": 1163
+  },
+  {
+   "file": "objects/mushroom/mushroom_006.png",
+   "folder": "mushroom",
+   "x": 638,
+   "y": 1145,
+   "w": 30,
+   "h": 28,
+   "footX": 653,
+   "footY": 1164,
+   "collision": "none",
+   "sortY": 1164
+  },
+  {
+   "file": "objects/mushroom/mushroom_004.png",
+   "folder": "mushroom",
+   "x": 235,
+   "y": 1145,
+   "w": 30,
+   "h": 30,
+   "footX": 248,
+   "footY": 1166,
+   "collision": "none",
+   "sortY": 1166
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 71,
+   "y": 1088,
+   "w": 107,
+   "h": 95,
+   "footX": 126,
+   "footY": 1167,
+   "collision": "none",
+   "sortY": 1167
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 616,
+   "y": 1134,
+   "w": 31,
+   "h": 40,
+   "footX": 630,
+   "footY": 1167,
+   "collision": "none",
+   "sortY": 1167
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_005.png",
+   "folder": "fern-grass",
+   "x": 1032,
+   "y": 1124,
+   "w": 75,
+   "h": 48,
+   "footX": 1069,
+   "footY": 1168,
+   "collision": "none",
+   "sortY": 1168
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 1019,
+   "y": 1148,
+   "w": 40,
+   "h": 28,
+   "footX": 1039,
+   "footY": 1170,
+   "collision": "none",
+   "sortY": 1170
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 257,
+   "y": 1121,
+   "w": 74,
+   "h": 65,
+   "footX": 295,
+   "footY": 1174,
+   "collision": "none",
+   "sortY": 1174
+  },
+  {
+   "file": "objects/stake/stake_009.png",
+   "folder": "stake",
+   "x": 420,
+   "y": 1121,
+   "w": 35,
+   "h": 79,
+   "footX": 444,
+   "footY": 1191,
+   "collision": "standing",
+   "sortY": 1179,
+   "feet": [
+    [
+     434,
+     1170
+    ],
+    [
+     433,
+     1172
+    ],
+    [
+     432,
+     1176
+    ],
+    [
+     431,
+     1180
+    ],
+    [
+     431,
+     1183
+    ],
+    [
+     431,
+     1186
+    ],
+    [
+     432,
+     1190
+    ],
+    [
+     433,
+     1194
+    ],
+    [
+     434,
+     1196
+    ],
+    [
+     454,
+     1196
+    ],
+    [
+     455,
+     1194
+    ],
+    [
+     456,
+     1190
+    ],
+    [
+     457,
+     1186
+    ],
+    [
+     457,
+     1183
+    ],
+    [
+     457,
+     1180
+    ],
+    [
+     456,
+     1176
+    ],
+    [
+     455,
+     1172
+    ],
+    [
+     454,
+     1170
+    ]
+   ],
+   "shape": "stake"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_005.png",
+   "folder": "fern-grass",
+   "x": 283,
+   "y": 1136,
+   "w": 75,
+   "h": 48,
+   "footX": 320,
+   "footY": 1180,
+   "collision": "none",
+   "sortY": 1180
+  },
+  {
+   "file": "objects/mushroom/mushroom_008.png",
+   "folder": "mushroom",
+   "x": 691,
+   "y": 1151,
+   "w": 50,
+   "h": 42,
+   "footX": 715,
+   "footY": 1180,
+   "collision": "none",
+   "sortY": 1180
+  },
+  {
+   "file": "objects/mushroom/mushroom_003.png",
+   "folder": "mushroom",
+   "x": 598,
+   "y": 1157,
+   "w": 50,
+   "h": 41,
+   "footX": 620,
+   "footY": 1187,
+   "collision": "none",
+   "sortY": 1187
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 211,
+   "y": 1136,
+   "w": 74,
+   "h": 65,
+   "footX": 249,
+   "footY": 1189,
+   "collision": "none",
+   "sortY": 1189
+  },
+  {
+   "file": "objects/mushroom/mushroom_014.png",
+   "folder": "mushroom",
+   "x": 646,
+   "y": 1125,
+   "w": 80,
+   "h": 67,
+   "footX": 686,
+   "footY": 1191,
+   "collision": "none",
+   "sortY": 1191
+  },
+  {
+   "file": "objects/bush/bush_002.png",
+   "folder": "bush",
+   "x": 524,
+   "y": 1064,
+   "w": 92,
+   "h": 139,
+   "footX": 575,
+   "footY": 1192,
+   "collision": "none",
+   "sortY": 1192
+  },
+  {
+   "file": "objects/rock/rock_005.png",
+   "folder": "rock",
+   "x": 1037,
+   "y": 1144,
+   "w": 45,
+   "h": 60,
+   "footX": 1062,
+   "footY": 1193,
+   "collision": "none",
+   "sortY": 1193
+  },
+  {
+   "file": "objects/mushroom/mushroom_004.png",
+   "folder": "mushroom",
+   "x": 97,
+   "y": 1178,
+   "w": 30,
+   "h": 30,
+   "footX": 110,
+   "footY": 1199,
+   "collision": "none",
+   "sortY": 1199
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 199,
+   "y": 1167,
+   "w": 31,
+   "h": 40,
+   "footX": 213,
+   "footY": 1200,
+   "collision": "none",
+   "sortY": 1200
+  },
+  {
+   "file": "objects/mushroom/mushroom_011.png",
+   "folder": "mushroom",
+   "x": 49,
+   "y": 1138,
+   "w": 79,
+   "h": 64,
+   "footX": 88,
+   "footY": 1201,
+   "collision": "none",
+   "sortY": 1201
+  },
+  {
+   "file": "objects/stake/stake_015.png",
+   "folder": "stake",
+   "x": 294,
+   "y": 1153,
+   "w": 12,
+   "h": 67,
+   "footX": 300,
+   "footY": 1214,
+   "collision": "standing",
+   "sortY": 1202,
+   "feet": [
+    [
+     290,
+     1193
+    ],
+    [
+     289,
+     1196
+    ],
+    [
+     288,
+     1199
+    ],
+    [
+     287,
+     1201
+    ],
+    [
+     287,
+     1206
+    ],
+    [
+     287,
+     1211
+    ],
+    [
+     288,
+     1213
+    ],
+    [
+     289,
+     1216
+    ],
+    [
+     290,
+     1219
+    ],
+    [
+     310,
+     1219
+    ],
+    [
+     311,
+     1216
+    ],
+    [
+     312,
+     1213
+    ],
+    [
+     313,
+     1211
+    ],
+    [
+     313,
+     1206
+    ],
+    [
+     313,
+     1201
+    ],
+    [
+     312,
+     1199
+    ],
+    [
+     311,
+     1196
+    ],
+    [
+     310,
+     1193
+    ]
+   ],
+   "shape": "stake"
+  },
+  {
+   "file": "objects/mushroom/mushroom_003.png",
+   "folder": "mushroom",
+   "x": 644,
+   "y": 1172,
+   "w": 50,
+   "h": 41,
+   "footX": 666,
+   "footY": 1202,
+   "collision": "none",
+   "sortY": 1202
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 688,
+   "y": 1155,
+   "w": 74,
+   "h": 52,
+   "footX": 724,
+   "footY": 1203,
+   "collision": "none",
+   "sortY": 1203
+  },
+  {
+   "file": "objects/bush/bush_015.png",
+   "folder": "bush",
+   "x": 94,
+   "y": 1149,
+   "w": 115,
+   "h": 70,
+   "footX": 151,
+   "footY": 1204,
+   "collision": "none",
+   "sortY": 1204
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 1103,
+   "y": 1156,
+   "w": 74,
+   "h": 65,
+   "footX": 1141,
+   "footY": 1209,
+   "collision": "none",
+   "sortY": 1209
+  },
+  {
+   "file": "objects/mushroom/mushroom_005.png",
+   "folder": "mushroom",
+   "x": 514,
+   "y": 1185,
+   "w": 30,
+   "h": 26,
+   "footX": 529,
+   "footY": 1210,
+   "collision": "none",
+   "sortY": 1210
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 1136,
+   "y": 1159,
+   "w": 75,
+   "h": 60,
+   "footX": 1175,
+   "footY": 1210,
+   "collision": "none",
+   "sortY": 1210
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 683,
+   "y": 1180,
+   "w": 43,
+   "h": 40,
+   "footX": 705,
+   "footY": 1213,
+   "collision": "none",
+   "sortY": 1213
+  },
+  {
+   "file": "objects/log/log_004.png",
+   "folder": "log",
+   "x": 321,
+   "y": 1166,
+   "w": 98,
+   "h": 65,
+   "footX": 369,
+   "footY": 1213,
+   "collision": "standing",
+   "sortY": 1217,
+   "feet": [
+    [
+     326,
+     1219
+    ],
+    [
+     334,
+     1224
+    ],
+    [
+     343,
+     1222
+    ],
+    [
+     351,
+     1226
+    ],
+    [
+     360,
+     1227
+    ],
+    [
+     370,
+     1227
+    ],
+    [
+     380,
+     1227
+    ],
+    [
+     389,
+     1226
+    ],
+    [
+     397,
+     1226
+    ],
+    [
+     406,
+     1225
+    ],
+    [
+     414,
+     1225
+    ],
+    [
+     414,
+     1209
+    ],
+    [
+     406,
+     1191
+    ],
+    [
+     398,
+     1197
+    ],
+    [
+     389,
+     1191
+    ],
+    [
+     380,
+     1195
+    ],
+    [
+     370,
+     1188
+    ],
+    [
+     361,
+     1179
+    ],
+    [
+     352,
+     1179
+    ],
+    [
+     343,
+     1178
+    ],
+    [
+     335,
+     1179
+    ],
+    [
+     326,
+     1202
+    ]
+   ],
+   "shape": "log",
+   "pieces": [
+    {
+     "srcX": 0,
+     "srcW": 9,
+     "x": 321,
+     "sortY": 1213
+    },
+    {
+     "srcX": 9,
+     "srcW": 32,
+     "x": 330,
+     "sortY": 1218
+    },
+    {
+     "srcX": 41,
+     "srcW": 32,
+     "x": 362,
+     "sortY": 1218
+    },
+    {
+     "srcX": 73,
+     "srcW": 25,
+     "x": 394,
+     "sortY": 1218
+    }
+   ]
+  }
+ ]
+}

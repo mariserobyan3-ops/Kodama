@@ -1,0 +1,3086 @@
+{
+ "format": "forest-map-kit-map",
+ "version": 2,
+ "generator": "Forest Map Kit 2.0",
+ "cell": "B2",
+ "seed": "342258",
+ "theme": "rocky",
+ "size": [
+  1254,
+  1254
+ ],
+ "pixelsPerMetre": 37,
+ "ground": {
+  "tile": "tiles/forest_tile_02_more-earth.png",
+  "overlay": "overlays/forest_overlay_04.png"
+ },
+ "roadsAtEdges": {
+  "N": [],
+  "S": [],
+  "W": [],
+  "E": []
+ },
+ "water": null,
+ "noGo": [],
+ "objects": [
+  {
+   "file": "objects/stump/stump_024.png",
+   "folder": "stump",
+   "x": 1070,
+   "y": 414,
+   "w": 58,
+   "h": 51,
+   "footX": 1101,
+   "footY": 454,
+   "collision": "ground",
+   "sortY": 454,
+   "feet": [
+    [
+     1066,
+     449
+    ],
+    [
+     1072,
+     454
+    ],
+    [
+     1079,
+     459
+    ],
+    [
+     1085,
+     461
+    ],
+    [
+     1094,
+     464
+    ],
+    [
+     1102,
+     464
+    ],
+    [
+     1111,
+     461
+    ],
+    [
+     1117,
+     458
+    ],
+    [
+     1124,
+     454
+    ],
+    [
+     1130,
+     448
+    ],
+    [
+     1130,
+     446
+    ],
+    [
+     1124,
+     437
+    ],
+    [
+     1116,
+     431
+    ],
+    [
+     1111,
+     433
+    ],
+    [
+     1102,
+     431
+    ],
+    [
+     1094,
+     429
+    ],
+    [
+     1085,
+     434
+    ],
+    [
+     1079,
+     435
+    ],
+    [
+     1072,
+     443
+    ],
+    [
+     1066,
+     446
+    ]
+   ],
+   "shape": "stump"
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 198,
+   "y": 22,
+   "w": 75,
+   "h": 61,
+   "footX": 237,
+   "footY": 73,
+   "collision": "none",
+   "sortY": 73
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 511,
+   "y": 42,
+   "w": 31,
+   "h": 40,
+   "footX": 525,
+   "footY": 75,
+   "collision": "none",
+   "sortY": 75
+  },
+  {
+   "file": "objects/big-rock/big-rock_006.png",
+   "folder": "big-rock",
+   "x": 668,
+   "y": -27,
+   "w": 272,
+   "h": 177,
+   "footX": 801,
+   "footY": 116,
+   "collision": "standing",
+   "sortY": 83,
+   "feet": [
+    [
+     663,
+     65
+    ],
+    [
+     693,
+     134
+    ],
+    [
+     724,
+     140
+    ],
+    [
+     754,
+     142
+    ],
+    [
+     787,
+     141
+    ],
+    [
+     820,
+     146
+    ],
+    [
+     853,
+     137
+    ],
+    [
+     883,
+     146
+    ],
+    [
+     914,
+     128
+    ],
+    [
+     944,
+     124
+    ],
+    [
+     944,
+     106
+    ],
+    [
+     914,
+     83
+    ],
+    [
+     884,
+     84
+    ],
+    [
+     853,
+     68
+    ],
+    [
+     821,
+     66
+    ],
+    [
+     787,
+     53
+    ],
+    [
+     755,
+     51
+    ],
+    [
+     723,
+     66
+    ],
+    [
+     693,
+     67
+    ],
+    [
+     663,
+     60
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 124,
+   "y": 71,
+   "w": 75,
+   "h": 36,
+   "footX": 161,
+   "footY": 104,
+   "collision": "none",
+   "sortY": 104
+  },
+  {
+   "file": "objects/rock/rock_005.png",
+   "folder": "rock",
+   "x": 246,
+   "y": 63,
+   "w": 45,
+   "h": 60,
+   "footX": 271,
+   "footY": 112,
+   "collision": "none",
+   "sortY": 112
+  },
+  {
+   "file": "objects/big-rock/big-rock_003.png",
+   "folder": "big-rock",
+   "x": 103,
+   "y": -4,
+   "w": 256,
+   "h": 192,
+   "footX": 231,
+   "footY": 153,
+   "collision": "standing",
+   "sortY": 115,
+   "feet": [
+    [
+     97,
+     143
+    ],
+    [
+     125,
+     166
+    ],
+    [
+     154,
+     171
+    ],
+    [
+     183,
+     171
+    ],
+    [
+     214,
+     179
+    ],
+    [
+     247,
+     186
+    ],
+    [
+     277,
+     185
+    ],
+    [
+     306,
+     183
+    ],
+    [
+     336,
+     181
+    ],
+    [
+     364,
+     126
+    ],
+    [
+     364,
+     122
+    ],
+    [
+     336,
+     124
+    ],
+    [
+     307,
+     124
+    ],
+    [
+     278,
+     105
+    ],
+    [
+     247,
+     93
+    ],
+    [
+     214,
+     79
+    ],
+    [
+     184,
+     83
+    ],
+    [
+     155,
+     89
+    ],
+    [
+     125,
+     118
+    ],
+    [
+     97,
+     139
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 434,
+   "y": 94,
+   "w": 75,
+   "h": 36,
+   "footX": 471,
+   "footY": 127,
+   "collision": "none",
+   "sortY": 127
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 627,
+   "y": 94,
+   "w": 43,
+   "h": 40,
+   "footX": 649,
+   "footY": 127,
+   "collision": "none",
+   "sortY": 127
+  },
+  {
+   "file": "objects/bush/bush_017.png",
+   "folder": "bush",
+   "x": 459,
+   "y": 94,
+   "w": 115,
+   "h": 67,
+   "footX": 521,
+   "footY": 146,
+   "collision": "none",
+   "sortY": 146
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 704,
+   "y": 113,
+   "w": 75,
+   "h": 36,
+   "footX": 741,
+   "footY": 146,
+   "collision": "none",
+   "sortY": 146
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 1145,
+   "y": 114,
+   "w": 31,
+   "h": 40,
+   "footX": 1159,
+   "footY": 147,
+   "collision": "none",
+   "sortY": 147
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 300,
+   "y": 99,
+   "w": 75,
+   "h": 60,
+   "footX": 339,
+   "footY": 150,
+   "collision": "none",
+   "sortY": 150
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 855,
+   "y": 119,
+   "w": 31,
+   "h": 40,
+   "footX": 869,
+   "footY": 152,
+   "collision": "none",
+   "sortY": 152
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 71,
+   "y": 27,
+   "w": 92,
+   "h": 139,
+   "footX": 118,
+   "footY": 155,
+   "collision": "none",
+   "sortY": 155
+  },
+  {
+   "file": "objects/rock/rock_005.png",
+   "folder": "rock",
+   "x": 738,
+   "y": 115,
+   "w": 45,
+   "h": 60,
+   "footX": 763,
+   "footY": 164,
+   "collision": "none",
+   "sortY": 164
+  },
+  {
+   "file": "objects/bush/bush_002.png",
+   "folder": "bush",
+   "x": 995,
+   "y": 45,
+   "w": 92,
+   "h": 139,
+   "footX": 1046,
+   "footY": 173,
+   "collision": "none",
+   "sortY": 173
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 672,
+   "y": 123,
+   "w": 75,
+   "h": 60,
+   "footX": 711,
+   "footY": 174,
+   "collision": "none",
+   "sortY": 174
+  },
+  {
+   "file": "objects/bush/bush_015.png",
+   "folder": "bush",
+   "x": 725,
+   "y": 135,
+   "w": 115,
+   "h": 70,
+   "footX": 782,
+   "footY": 190,
+   "collision": "none",
+   "sortY": 190
+  },
+  {
+   "file": "objects/rock/rock_008.png",
+   "folder": "rock",
+   "x": 881,
+   "y": 131,
+   "w": 102,
+   "h": 95,
+   "footX": 931,
+   "footY": 206,
+   "collision": "standing",
+   "sortY": 190,
+   "feet": [
+    [
+     876,
+     213
+    ],
+    [
+     888,
+     223
+    ],
+    [
+     899,
+     224
+    ],
+    [
+     911,
+     226
+    ],
+    [
+     924,
+     227
+    ],
+    [
+     939,
+     226
+    ],
+    [
+     952,
+     224
+    ],
+    [
+     964,
+     223
+    ],
+    [
+     976,
+     220
+    ],
+    [
+     987,
+     199
+    ],
+    [
+     987,
+     196
+    ],
+    [
+     975,
+     171
+    ],
+    [
+     963,
+     171
+    ],
+    [
+     951,
+     173
+    ],
+    [
+     938,
+     177
+    ],
+    [
+     924,
+     181
+    ],
+    [
+     910,
+     188
+    ],
+    [
+     899,
+     189
+    ],
+    [
+     887,
+     202
+    ],
+    [
+     876,
+     209
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 485,
+   "y": 147,
+   "w": 75,
+   "h": 60,
+   "footX": 524,
+   "footY": 198,
+   "collision": "none",
+   "sortY": 198
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 243,
+   "y": 178,
+   "w": 40,
+   "h": 25,
+   "footX": 266,
+   "footY": 199,
+   "collision": "none",
+   "sortY": 199
+  },
+  {
+   "file": "objects/pine/pine_005.png",
+   "folder": "pine",
+   "x": 1060,
+   "y": -44,
+   "w": 180,
+   "h": 285,
+   "footX": 1144,
+   "footY": 217,
+   "collision": "standing",
+   "sortY": 199,
+   "feet": [
+    [
+     1099,
+     188
+    ],
+    [
+     1098,
+     191
+    ],
+    [
+     1098,
+     195
+    ],
+    [
+     1098,
+     200
+    ],
+    [
+     1098,
+     204
+    ],
+    [
+     1098,
+     208
+    ],
+    [
+     1098,
+     212
+    ],
+    [
+     1098,
+     216
+    ],
+    [
+     1099,
+     220
+    ],
+    [
+     1189,
+     220
+    ],
+    [
+     1190,
+     216
+    ],
+    [
+     1190,
+     212
+    ],
+    [
+     1190,
+     208
+    ],
+    [
+     1190,
+     204
+    ],
+    [
+     1190,
+     200
+    ],
+    [
+     1190,
+     195
+    ],
+    [
+     1190,
+     191
+    ],
+    [
+     1189,
+     188
+    ]
+   ],
+   "shape": "pine"
+  },
+  {
+   "file": "objects/bush/bush_012.png",
+   "folder": "bush",
+   "x": 1036,
+   "y": 182,
+   "w": 75,
+   "h": 64,
+   "footX": 1079,
+   "footY": 232,
+   "collision": "none",
+   "sortY": 232
+  },
+  {
+   "file": "objects/bush/bush_003.png",
+   "folder": "bush",
+   "x": 178,
+   "y": 121,
+   "w": 92,
+   "h": 134,
+   "footX": 226,
+   "footY": 246,
+   "collision": "none",
+   "sortY": 246
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 838,
+   "y": 227,
+   "w": 40,
+   "h": 25,
+   "footX": 861,
+   "footY": 248,
+   "collision": "none",
+   "sortY": 248
+  },
+  {
+   "file": "objects/bush/bush_018.png",
+   "folder": "bush",
+   "x": 395,
+   "y": 182,
+   "w": 115,
+   "h": 83,
+   "footX": 459,
+   "footY": 249,
+   "collision": "none",
+   "sortY": 249
+  },
+  {
+   "file": "objects/mushroom/mushroom_007.png",
+   "folder": "mushroom",
+   "x": 1147,
+   "y": 222,
+   "w": 50,
+   "h": 39,
+   "footX": 1172,
+   "footY": 260,
+   "collision": "none",
+   "sortY": 260
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 34,
+   "y": 223,
+   "w": 74,
+   "h": 52,
+   "footX": 70,
+   "footY": 271,
+   "collision": "none",
+   "sortY": 271
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 819,
+   "y": 240,
+   "w": 31,
+   "h": 40,
+   "footX": 833,
+   "footY": 273,
+   "collision": "none",
+   "sortY": 273
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 1035,
+   "y": 208,
+   "w": 107,
+   "h": 95,
+   "footX": 1090,
+   "footY": 287,
+   "collision": "none",
+   "sortY": 287
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 953,
+   "y": 219,
+   "w": 107,
+   "h": 95,
+   "footX": 1008,
+   "footY": 298,
+   "collision": "none",
+   "sortY": 298
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_005.png",
+   "folder": "fern-grass",
+   "x": 203,
+   "y": 260,
+   "w": 75,
+   "h": 48,
+   "footX": 240,
+   "footY": 304,
+   "collision": "none",
+   "sortY": 304
+  },
+  {
+   "file": "objects/big-rock/big-rock_001.png",
+   "folder": "big-rock",
+   "x": -8,
+   "y": 211,
+   "w": 173,
+   "h": 192,
+   "footX": 78,
+   "footY": 370,
+   "collision": "standing",
+   "sortY": 333,
+   "feet": [
+    [
+     -14,
+     374
+    ],
+    [
+     5,
+     385
+    ],
+    [
+     25,
+     396
+    ],
+    [
+     45,
+     399
+    ],
+    [
+     66,
+     391
+    ],
+    [
+     90,
+     399
+    ],
+    [
+     110,
+     404
+    ],
+    [
+     131,
+     392
+    ],
+    [
+     151,
+     384
+    ],
+    [
+     170,
+     361
+    ],
+    [
+     170,
+     354
+    ],
+    [
+     151,
+     339
+    ],
+    [
+     131,
+     323
+    ],
+    [
+     110,
+     303
+    ],
+    [
+     89,
+     298
+    ],
+    [
+     67,
+     316
+    ],
+    [
+     46,
+     314
+    ],
+    [
+     24,
+     337
+    ],
+    [
+     5,
+     337
+    ],
+    [
+     -14,
+     372
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_005.png",
+   "folder": "fern-grass",
+   "x": 1092,
+   "y": 329,
+   "w": 75,
+   "h": 48,
+   "footX": 1129,
+   "footY": 373,
+   "collision": "none",
+   "sortY": 373
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 295,
+   "y": 342,
+   "w": 31,
+   "h": 40,
+   "footX": 309,
+   "footY": 375,
+   "collision": "none",
+   "sortY": 375
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_002.png",
+   "folder": "fern-grass",
+   "x": 965,
+   "y": 356,
+   "w": 75,
+   "h": 36,
+   "footX": 1002,
+   "footY": 389,
+   "collision": "none",
+   "sortY": 389
+  },
+  {
+   "file": "objects/big-rock/big-rock_005.png",
+   "folder": "big-rock",
+   "x": 993,
+   "y": 337,
+   "w": 99,
+   "h": 95,
+   "footX": 1047,
+   "footY": 417,
+   "collision": "standing",
+   "sortY": 394,
+   "feet": [
+    [
+     987,
+     407
+    ],
+    [
+     998,
+     410
+    ],
+    [
+     1010,
+     420
+    ],
+    [
+     1022,
+     425
+    ],
+    [
+     1036,
+     430
+    ],
+    [
+     1048,
+     433
+    ],
+    [
+     1062,
+     427
+    ],
+    [
+     1074,
+     422
+    ],
+    [
+     1086,
+     416
+    ],
+    [
+     1097,
+     405
+    ],
+    [
+     1097,
+     404
+    ],
+    [
+     1086,
+     392
+    ],
+    [
+     1074,
+     378
+    ],
+    [
+     1061,
+     375
+    ],
+    [
+     1048,
+     377
+    ],
+    [
+     1036,
+     378
+    ],
+    [
+     1022,
+     380
+    ],
+    [
+     1010,
+     389
+    ],
+    [
+     998,
+     388
+    ],
+    [
+     987,
+     405
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/bush/bush_014.png",
+   "folder": "bush",
+   "x": 50,
+   "y": 332,
+   "w": 115,
+   "h": 86,
+   "footX": 109,
+   "footY": 408,
+   "collision": "none",
+   "sortY": 408
+  },
+  {
+   "file": "objects/mushroom/mushroom_004.png",
+   "folder": "mushroom",
+   "x": 1112,
+   "y": 388,
+   "w": 30,
+   "h": 30,
+   "footX": 1125,
+   "footY": 409,
+   "collision": "none",
+   "sortY": 409
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 1123,
+   "y": 380,
+   "w": 37,
+   "h": 40,
+   "footX": 1141,
+   "footY": 414,
+   "collision": "none",
+   "sortY": 414
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 104,
+   "y": 371,
+   "w": 75,
+   "h": 61,
+   "footX": 143,
+   "footY": 422,
+   "collision": "none",
+   "sortY": 422
+  },
+  {
+   "file": "objects/rock/rock_002.png",
+   "folder": "rock",
+   "x": 46,
+   "y": 404,
+   "w": 70,
+   "h": 59,
+   "footX": 84,
+   "footY": 452,
+   "collision": "standing",
+   "sortY": 438,
+   "feet": [
+    [
+     41,
+     440
+    ],
+    [
+     48,
+     459
+    ],
+    [
+     57,
+     463
+    ],
+    [
+     65,
+     462
+    ],
+    [
+     75,
+     462
+    ],
+    [
+     86,
+     463
+    ],
+    [
+     96,
+     462
+    ],
+    [
+     104,
+     463
+    ],
+    [
+     113,
+     459
+    ],
+    [
+     120,
+     447
+    ],
+    [
+     120,
+     445
+    ],
+    [
+     113,
+     437
+    ],
+    [
+     104,
+     431
+    ],
+    [
+     96,
+     428
+    ],
+    [
+     85,
+     426
+    ],
+    [
+     76,
+     425
+    ],
+    [
+     65,
+     428
+    ],
+    [
+     57,
+     435
+    ],
+    [
+     48,
+     439
+    ],
+    [
+     41,
+     438
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_014.png",
+   "folder": "bush",
+   "x": 87,
+   "y": 396,
+   "w": 115,
+   "h": 86,
+   "footX": 146,
+   "footY": 472,
+   "collision": "none",
+   "sortY": 472
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 1116,
+   "y": 349,
+   "w": 92,
+   "h": 139,
+   "footX": 1163,
+   "footY": 477,
+   "collision": "none",
+   "sortY": 477
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 1003,
+   "y": 457,
+   "w": 40,
+   "h": 28,
+   "footX": 1023,
+   "footY": 479,
+   "collision": "none",
+   "sortY": 479
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 932,
+   "y": 430,
+   "w": 74,
+   "h": 65,
+   "footX": 970,
+   "footY": 483,
+   "collision": "none",
+   "sortY": 483
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 1049,
+   "y": 476,
+   "w": 40,
+   "h": 25,
+   "footX": 1072,
+   "footY": 497,
+   "collision": "none",
+   "sortY": 497
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 1064,
+   "y": 446,
+   "w": 75,
+   "h": 60,
+   "footX": 1103,
+   "footY": 497,
+   "collision": "none",
+   "sortY": 497
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 203,
+   "y": 489,
+   "w": 43,
+   "h": 40,
+   "footX": 225,
+   "footY": 522,
+   "collision": "none",
+   "sortY": 522
+  },
+  {
+   "file": "objects/big-rock/big-rock_006.png",
+   "folder": "big-rock",
+   "x": 31,
+   "y": 415,
+   "w": 272,
+   "h": 177,
+   "footX": 164,
+   "footY": 558,
+   "collision": "standing",
+   "sortY": 525,
+   "feet": [
+    [
+     26,
+     507
+    ],
+    [
+     56,
+     576
+    ],
+    [
+     87,
+     582
+    ],
+    [
+     117,
+     584
+    ],
+    [
+     150,
+     583
+    ],
+    [
+     183,
+     588
+    ],
+    [
+     216,
+     579
+    ],
+    [
+     246,
+     588
+    ],
+    [
+     277,
+     570
+    ],
+    [
+     307,
+     566
+    ],
+    [
+     307,
+     548
+    ],
+    [
+     277,
+     525
+    ],
+    [
+     247,
+     526
+    ],
+    [
+     216,
+     510
+    ],
+    [
+     184,
+     508
+    ],
+    [
+     150,
+     495
+    ],
+    [
+     118,
+     493
+    ],
+    [
+     86,
+     508
+    ],
+    [
+     56,
+     509
+    ],
+    [
+     26,
+     502
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 54,
+   "y": 535,
+   "w": 40,
+   "h": 28,
+   "footX": 74,
+   "footY": 557,
+   "collision": "none",
+   "sortY": 557
+  },
+  {
+   "file": "objects/pine/pine_008.png",
+   "folder": "pine",
+   "x": 309,
+   "y": 396,
+   "w": 112,
+   "h": 210,
+   "footX": 370,
+   "footY": 589,
+   "collision": "standing",
+   "sortY": 575,
+   "feet": [
+    [
+     340,
+     566
+    ],
+    [
+     340,
+     570
+    ],
+    [
+     339,
+     573
+    ],
+    [
+     339,
+     577
+    ],
+    [
+     339,
+     580
+    ],
+    [
+     339,
+     582
+    ],
+    [
+     339,
+     586
+    ],
+    [
+     340,
+     589
+    ],
+    [
+     340,
+     593
+    ],
+    [
+     400,
+     593
+    ],
+    [
+     400,
+     589
+    ],
+    [
+     401,
+     586
+    ],
+    [
+     401,
+     582
+    ],
+    [
+     401,
+     580
+    ],
+    [
+     401,
+     577
+    ],
+    [
+     401,
+     573
+    ],
+    [
+     400,
+     570
+    ],
+    [
+     400,
+     566
+    ]
+   ],
+   "shape": "pine"
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 61,
+   "y": 465,
+   "w": 92,
+   "h": 139,
+   "footX": 108,
+   "footY": 593,
+   "collision": "none",
+   "sortY": 593
+  },
+  {
+   "file": "objects/bush/bush_003.png",
+   "folder": "bush",
+   "x": 268,
+   "y": 468,
+   "w": 92,
+   "h": 134,
+   "footX": 316,
+   "footY": 593,
+   "collision": "none",
+   "sortY": 593
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 356,
+   "y": 478,
+   "w": 92,
+   "h": 139,
+   "footX": 403,
+   "footY": 606,
+   "collision": "none",
+   "sortY": 606
+  },
+  {
+   "file": "objects/rock/rock_001.png",
+   "folder": "rock",
+   "x": 144,
+   "y": 580,
+   "w": 31,
+   "h": 35,
+   "footX": 163,
+   "footY": 609,
+   "collision": "none",
+   "sortY": 609
+  },
+  {
+   "file": "objects/rock/rock_009.png",
+   "folder": "rock",
+   "x": 1117,
+   "y": 551,
+   "w": 90,
+   "h": 95,
+   "footX": 1165,
+   "footY": 627,
+   "collision": "standing",
+   "sortY": 610,
+   "feet": [
+    [
+     1112,
+     636
+    ],
+    [
+     1123,
+     645
+    ],
+    [
+     1132,
+     644
+    ],
+    [
+     1143,
+     646
+    ],
+    [
+     1155,
+     644
+    ],
+    [
+     1168,
+     646
+    ],
+    [
+     1180,
+     647
+    ],
+    [
+     1191,
+     642
+    ],
+    [
+     1200,
+     642
+    ],
+    [
+     1211,
+     633
+    ],
+    [
+     1211,
+     629
+    ],
+    [
+     1201,
+     612
+    ],
+    [
+     1191,
+     606
+    ],
+    [
+     1179,
+     601
+    ],
+    [
+     1167,
+     592
+    ],
+    [
+     1156,
+     591
+    ],
+    [
+     1144,
+     592
+    ],
+    [
+     1133,
+     597
+    ],
+    [
+     1122,
+     621
+    ],
+    [
+     1112,
+     633
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_012.png",
+   "folder": "bush",
+   "x": 263,
+   "y": 573,
+   "w": 75,
+   "h": 64,
+   "footX": 306,
+   "footY": 623,
+   "collision": "none",
+   "sortY": 623
+  },
+  {
+   "file": "objects/big-rock/big-rock_005.png",
+   "folder": "big-rock",
+   "x": 345,
+   "y": 571,
+   "w": 99,
+   "h": 95,
+   "footX": 399,
+   "footY": 651,
+   "collision": "standing",
+   "sortY": 628,
+   "feet": [
+    [
+     339,
+     641
+    ],
+    [
+     350,
+     644
+    ],
+    [
+     362,
+     654
+    ],
+    [
+     374,
+     659
+    ],
+    [
+     388,
+     664
+    ],
+    [
+     400,
+     667
+    ],
+    [
+     414,
+     661
+    ],
+    [
+     426,
+     656
+    ],
+    [
+     438,
+     650
+    ],
+    [
+     449,
+     639
+    ],
+    [
+     449,
+     638
+    ],
+    [
+     438,
+     626
+    ],
+    [
+     426,
+     612
+    ],
+    [
+     413,
+     609
+    ],
+    [
+     400,
+     611
+    ],
+    [
+     388,
+     612
+    ],
+    [
+     374,
+     614
+    ],
+    [
+     362,
+     623
+    ],
+    [
+     350,
+     622
+    ],
+    [
+     339,
+     639
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 144,
+   "y": 579,
+   "w": 75,
+   "h": 60,
+   "footX": 183,
+   "footY": 630,
+   "collision": "none",
+   "sortY": 630
+  },
+  {
+   "file": "objects/bush/bush_018.png",
+   "folder": "bush",
+   "x": 503,
+   "y": 578,
+   "w": 115,
+   "h": 83,
+   "footX": 567,
+   "footY": 645,
+   "collision": "none",
+   "sortY": 645
+  },
+  {
+   "file": "objects/bush/bush_018.png",
+   "folder": "bush",
+   "x": 79,
+   "y": 580,
+   "w": 115,
+   "h": 83,
+   "footX": 143,
+   "footY": 647,
+   "collision": "none",
+   "sortY": 647
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 300,
+   "y": 634,
+   "w": 43,
+   "h": 40,
+   "footX": 322,
+   "footY": 667,
+   "collision": "none",
+   "sortY": 667
+  },
+  {
+   "file": "objects/rock/rock_007.png",
+   "folder": "rock",
+   "x": 418,
+   "y": 636,
+   "w": 94,
+   "h": 95,
+   "footX": 465,
+   "footY": 709,
+   "collision": "standing",
+   "sortY": 694,
+   "feet": [
+    [
+     413,
+     705
+    ],
+    [
+     423,
+     723
+    ],
+    [
+     434,
+     724
+    ],
+    [
+     445,
+     730
+    ],
+    [
+     458,
+     732
+    ],
+    [
+     472,
+     729
+    ],
+    [
+     484,
+     729
+    ],
+    [
+     495,
+     727
+    ],
+    [
+     505,
+     725
+    ],
+    [
+     516,
+     716
+    ],
+    [
+     516,
+     710
+    ],
+    [
+     506,
+     694
+    ],
+    [
+     495,
+     692
+    ],
+    [
+     483,
+     679
+    ],
+    [
+     471,
+     675
+    ],
+    [
+     458,
+     677
+    ],
+    [
+     446,
+     681
+    ],
+    [
+     434,
+     683
+    ],
+    [
+     423,
+     699
+    ],
+    [
+     413,
+     703
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 87,
+   "y": 618,
+   "w": 107,
+   "h": 95,
+   "footX": 142,
+   "footY": 697,
+   "collision": "none",
+   "sortY": 697
+  },
+  {
+   "file": "objects/bush/bush_018.png",
+   "folder": "bush",
+   "x": 356,
+   "y": 639,
+   "w": 115,
+   "h": 83,
+   "footX": 420,
+   "footY": 706,
+   "collision": "none",
+   "sortY": 706
+  },
+  {
+   "file": "objects/rock/rock_001.png",
+   "folder": "rock",
+   "x": 365,
+   "y": 681,
+   "w": 31,
+   "h": 35,
+   "footX": 384,
+   "footY": 710,
+   "collision": "none",
+   "sortY": 710
+  },
+  {
+   "file": "objects/rock/rock_009.png",
+   "folder": "rock",
+   "x": 344,
+   "y": 667,
+   "w": 90,
+   "h": 95,
+   "footX": 392,
+   "footY": 743,
+   "collision": "standing",
+   "sortY": 726,
+   "feet": [
+    [
+     339,
+     752
+    ],
+    [
+     350,
+     761
+    ],
+    [
+     359,
+     760
+    ],
+    [
+     370,
+     762
+    ],
+    [
+     382,
+     760
+    ],
+    [
+     395,
+     762
+    ],
+    [
+     407,
+     763
+    ],
+    [
+     418,
+     758
+    ],
+    [
+     427,
+     758
+    ],
+    [
+     438,
+     749
+    ],
+    [
+     438,
+     745
+    ],
+    [
+     428,
+     728
+    ],
+    [
+     418,
+     722
+    ],
+    [
+     406,
+     717
+    ],
+    [
+     394,
+     708
+    ],
+    [
+     383,
+     707
+    ],
+    [
+     371,
+     708
+    ],
+    [
+     360,
+     713
+    ],
+    [
+     349,
+     737
+    ],
+    [
+     339,
+     749
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 46,
+   "y": 730,
+   "w": 74,
+   "h": 52,
+   "footX": 82,
+   "footY": 778,
+   "collision": "none",
+   "sortY": 778
+  },
+  {
+   "file": "objects/rock/rock_002.png",
+   "folder": "rock",
+   "x": 215,
+   "y": 767,
+   "w": 70,
+   "h": 59,
+   "footX": 253,
+   "footY": 815,
+   "collision": "standing",
+   "sortY": 801,
+   "feet": [
+    [
+     210,
+     803
+    ],
+    [
+     217,
+     822
+    ],
+    [
+     226,
+     826
+    ],
+    [
+     234,
+     825
+    ],
+    [
+     244,
+     825
+    ],
+    [
+     255,
+     826
+    ],
+    [
+     265,
+     825
+    ],
+    [
+     273,
+     826
+    ],
+    [
+     282,
+     822
+    ],
+    [
+     289,
+     810
+    ],
+    [
+     289,
+     808
+    ],
+    [
+     282,
+     800
+    ],
+    [
+     273,
+     794
+    ],
+    [
+     265,
+     791
+    ],
+    [
+     254,
+     789
+    ],
+    [
+     245,
+     788
+    ],
+    [
+     234,
+     791
+    ],
+    [
+     226,
+     798
+    ],
+    [
+     217,
+     802
+    ],
+    [
+     210,
+     801
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 399,
+   "y": 758,
+   "w": 74,
+   "h": 65,
+   "footX": 437,
+   "footY": 811,
+   "collision": "none",
+   "sortY": 811
+  },
+  {
+   "file": "objects/bush/bush_020.png",
+   "folder": "bush",
+   "x": 349,
+   "y": 690,
+   "w": 92,
+   "h": 139,
+   "footX": 396,
+   "footY": 818,
+   "collision": "none",
+   "sortY": 818
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 768,
+   "y": 784,
+   "w": 74,
+   "h": 52,
+   "footX": 804,
+   "footY": 832,
+   "collision": "none",
+   "sortY": 832
+  },
+  {
+   "file": "objects/rock/rock_003.png",
+   "folder": "rock",
+   "x": 383,
+   "y": 921,
+   "w": 64,
+   "h": 60,
+   "footX": 418,
+   "footY": 970,
+   "collision": "standing",
+   "sortY": 943,
+   "feet": [
+    [
+     378,
+     968
+    ],
+    [
+     386,
+     978
+    ],
+    [
+     393,
+     978
+    ],
+    [
+     401,
+     982
+    ],
+    [
+     410,
+     980
+    ],
+    [
+     419,
+     980
+    ],
+    [
+     428,
+     980
+    ],
+    [
+     435,
+     981
+    ],
+    [
+     443,
+     977
+    ],
+    [
+     449,
+     927
+    ],
+    [
+     449,
+     923
+    ],
+    [
+     443,
+     944
+    ],
+    [
+     436,
+     945
+    ],
+    [
+     429,
+     945
+    ],
+    [
+     420,
+     947
+    ],
+    [
+     409,
+     949
+    ],
+    [
+     398,
+     956
+    ],
+    [
+     392,
+     960
+    ],
+    [
+     385,
+     962
+    ],
+    [
+     378,
+     964
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_013.png",
+   "folder": "bush",
+   "x": 40,
+   "y": 908,
+   "w": 74,
+   "h": 65,
+   "footX": 78,
+   "footY": 961,
+   "collision": "none",
+   "sortY": 961
+  },
+  {
+   "file": "objects/bush/bush_012.png",
+   "folder": "bush",
+   "x": 28,
+   "y": 936,
+   "w": 75,
+   "h": 64,
+   "footX": 71,
+   "footY": 986,
+   "collision": "none",
+   "sortY": 986
+  },
+  {
+   "file": "objects/bush/bush_012.png",
+   "folder": "bush",
+   "x": 24,
+   "y": 965,
+   "w": 75,
+   "h": 64,
+   "footX": 67,
+   "footY": 1015,
+   "collision": "none",
+   "sortY": 1015
+  },
+  {
+   "file": "objects/big-rock/big-rock_001.png",
+   "folder": "big-rock",
+   "x": 16,
+   "y": 897,
+   "w": 173,
+   "h": 192,
+   "footX": 102,
+   "footY": 1056,
+   "collision": "standing",
+   "sortY": 1019,
+   "feet": [
+    [
+     10,
+     1060
+    ],
+    [
+     29,
+     1071
+    ],
+    [
+     49,
+     1082
+    ],
+    [
+     69,
+     1085
+    ],
+    [
+     90,
+     1077
+    ],
+    [
+     114,
+     1085
+    ],
+    [
+     134,
+     1090
+    ],
+    [
+     155,
+     1078
+    ],
+    [
+     175,
+     1070
+    ],
+    [
+     194,
+     1047
+    ],
+    [
+     194,
+     1040
+    ],
+    [
+     175,
+     1025
+    ],
+    [
+     155,
+     1009
+    ],
+    [
+     134,
+     989
+    ],
+    [
+     113,
+     984
+    ],
+    [
+     91,
+     1002
+    ],
+    [
+     70,
+     1000
+    ],
+    [
+     48,
+     1023
+    ],
+    [
+     29,
+     1023
+    ],
+    [
+     10,
+     1058
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/bush/bush_009.png",
+   "folder": "bush",
+   "x": 279,
+   "y": 992,
+   "w": 75,
+   "h": 63,
+   "footX": 319,
+   "footY": 1043,
+   "collision": "none",
+   "sortY": 1043
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 1104,
+   "y": 1010,
+   "w": 37,
+   "h": 40,
+   "footX": 1122,
+   "footY": 1044,
+   "collision": "none",
+   "sortY": 1044
+  },
+  {
+   "file": "objects/big-rock/big-rock_003.png",
+   "folder": "big-rock",
+   "x": 1065,
+   "y": 936,
+   "w": 256,
+   "h": 192,
+   "footX": 1193,
+   "footY": 1093,
+   "collision": "standing",
+   "sortY": 1055,
+   "feet": [
+    [
+     1059,
+     1083
+    ],
+    [
+     1087,
+     1106
+    ],
+    [
+     1116,
+     1111
+    ],
+    [
+     1145,
+     1111
+    ],
+    [
+     1176,
+     1119
+    ],
+    [
+     1209,
+     1126
+    ],
+    [
+     1239,
+     1125
+    ],
+    [
+     1268,
+     1123
+    ],
+    [
+     1298,
+     1121
+    ],
+    [
+     1326,
+     1066
+    ],
+    [
+     1326,
+     1062
+    ],
+    [
+     1298,
+     1064
+    ],
+    [
+     1269,
+     1064
+    ],
+    [
+     1240,
+     1045
+    ],
+    [
+     1209,
+     1033
+    ],
+    [
+     1176,
+     1019
+    ],
+    [
+     1146,
+     1023
+    ],
+    [
+     1117,
+     1029
+    ],
+    [
+     1087,
+     1058
+    ],
+    [
+     1059,
+     1079
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 785,
+   "y": 1008,
+   "w": 74,
+   "h": 52,
+   "footX": 821,
+   "footY": 1056,
+   "collision": "none",
+   "sortY": 1056
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 118,
+   "y": 1010,
+   "w": 74,
+   "h": 52,
+   "footX": 154,
+   "footY": 1058,
+   "collision": "none",
+   "sortY": 1058
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 765,
+   "y": 1042,
+   "w": 37,
+   "h": 40,
+   "footX": 783,
+   "footY": 1076,
+   "collision": "none",
+   "sortY": 1076
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 277,
+   "y": 1055,
+   "w": 37,
+   "h": 40,
+   "footX": 295,
+   "footY": 1089,
+   "collision": "none",
+   "sortY": 1089
+  },
+  {
+   "file": "objects/bush/bush_016.png",
+   "folder": "bush",
+   "x": 369,
+   "y": 1010,
+   "w": 107,
+   "h": 95,
+   "footX": 424,
+   "footY": 1089,
+   "collision": "none",
+   "sortY": 1089
+  },
+  {
+   "file": "objects/bush/bush_004.png",
+   "folder": "bush",
+   "x": 846,
+   "y": 1057,
+   "w": 37,
+   "h": 40,
+   "footX": 864,
+   "footY": 1091,
+   "collision": "none",
+   "sortY": 1091
+  },
+  {
+   "file": "objects/bush/bush_009.png",
+   "folder": "bush",
+   "x": 591,
+   "y": 1053,
+   "w": 75,
+   "h": 63,
+   "footX": 631,
+   "footY": 1104,
+   "collision": "none",
+   "sortY": 1104
+  },
+  {
+   "file": "objects/big-rock/big-rock_004.png",
+   "folder": "big-rock",
+   "x": 231,
+   "y": 987,
+   "w": 266,
+   "h": 192,
+   "footX": 367,
+   "footY": 1148,
+   "collision": "standing",
+   "sortY": 1108,
+   "feet": [
+    [
+     225,
+     1130
+    ],
+    [
+     254,
+     1158
+    ],
+    [
+     284,
+     1158
+    ],
+    [
+     314,
+     1173
+    ],
+    [
+     347,
+     1177
+    ],
+    [
+     380,
+     1174
+    ],
+    [
+     412,
+     1181
+    ],
+    [
+     442,
+     1173
+    ],
+    [
+     473,
+     1149
+    ],
+    [
+     502,
+     1145
+    ],
+    [
+     502,
+     1144
+    ],
+    [
+     473,
+     1111
+    ],
+    [
+     443,
+     1112
+    ],
+    [
+     413,
+     1094
+    ],
+    [
+     379,
+     1072
+    ],
+    [
+     347,
+     1082
+    ],
+    [
+     314,
+     1103
+    ],
+    [
+     285,
+     1090
+    ],
+    [
+     254,
+     1114
+    ],
+    [
+     225,
+     1127
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 53,
+   "y": 1092,
+   "w": 40,
+   "h": 25,
+   "footX": 76,
+   "footY": 1113,
+   "collision": "none",
+   "sortY": 1113
+  },
+  {
+   "file": "objects/bush/bush_010.png",
+   "folder": "bush",
+   "x": 214,
+   "y": 1067,
+   "w": 75,
+   "h": 61,
+   "footX": 253,
+   "footY": 1118,
+   "collision": "none",
+   "sortY": 1118
+  },
+  {
+   "file": "objects/mushroom/mushroom_008.png",
+   "folder": "mushroom",
+   "x": 73,
+   "y": 1090,
+   "w": 50,
+   "h": 42,
+   "footX": 97,
+   "footY": 1119,
+   "collision": "none",
+   "sortY": 1119
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 106,
+   "y": 1102,
+   "w": 40,
+   "h": 28,
+   "footX": 126,
+   "footY": 1124,
+   "collision": "none",
+   "sortY": 1124
+  },
+  {
+   "file": "objects/rock/rock_013.png",
+   "folder": "rock",
+   "x": 282,
+   "y": 1102,
+   "w": 40,
+   "h": 28,
+   "footX": 302,
+   "footY": 1124,
+   "collision": "none",
+   "sortY": 1124
+  },
+  {
+   "file": "objects/bush/bush_015.png",
+   "folder": "bush",
+   "x": 384,
+   "y": 1071,
+   "w": 115,
+   "h": 70,
+   "footX": 441,
+   "footY": 1126,
+   "collision": "none",
+   "sortY": 1126
+  },
+  {
+   "file": "objects/big-rock/big-rock_006.png",
+   "folder": "big-rock",
+   "x": 685,
+   "y": 1016,
+   "w": 272,
+   "h": 177,
+   "footX": 818,
+   "footY": 1159,
+   "collision": "standing",
+   "sortY": 1126,
+   "feet": [
+    [
+     680,
+     1108
+    ],
+    [
+     710,
+     1177
+    ],
+    [
+     741,
+     1183
+    ],
+    [
+     771,
+     1185
+    ],
+    [
+     804,
+     1184
+    ],
+    [
+     837,
+     1189
+    ],
+    [
+     870,
+     1180
+    ],
+    [
+     900,
+     1189
+    ],
+    [
+     931,
+     1171
+    ],
+    [
+     961,
+     1167
+    ],
+    [
+     961,
+     1149
+    ],
+    [
+     931,
+     1126
+    ],
+    [
+     901,
+     1127
+    ],
+    [
+     870,
+     1111
+    ],
+    [
+     838,
+     1109
+    ],
+    [
+     804,
+     1096
+    ],
+    [
+     772,
+     1094
+    ],
+    [
+     740,
+     1109
+    ],
+    [
+     710,
+     1110
+    ],
+    [
+     680,
+     1103
+    ]
+   ],
+   "shape": "big-rock"
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 1082,
+   "y": 1107,
+   "w": 40,
+   "h": 25,
+   "footX": 1105,
+   "footY": 1128,
+   "collision": "none",
+   "sortY": 1128
+  },
+  {
+   "file": "objects/bush/bush_011.png",
+   "folder": "bush",
+   "x": 673,
+   "y": 1086,
+   "w": 75,
+   "h": 60,
+   "footX": 712,
+   "footY": 1137,
+   "collision": "none",
+   "sortY": 1137
+  },
+  {
+   "file": "objects/bush/bush_008.png",
+   "folder": "bush",
+   "x": 1168,
+   "y": 1110,
+   "w": 31,
+   "h": 40,
+   "footX": 1182,
+   "footY": 1143,
+   "collision": "none",
+   "sortY": 1143
+  },
+  {
+   "file": "objects/bush/bush_012.png",
+   "folder": "bush",
+   "x": 1108,
+   "y": 1101,
+   "w": 75,
+   "h": 64,
+   "footX": 1151,
+   "footY": 1151,
+   "collision": "none",
+   "sortY": 1151
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 1075,
+   "y": 1112,
+   "w": 74,
+   "h": 52,
+   "footX": 1111,
+   "footY": 1160,
+   "collision": "none",
+   "sortY": 1160
+  },
+  {
+   "file": "objects/rock/rock_011.png",
+   "folder": "rock",
+   "x": 837,
+   "y": 1165,
+   "w": 40,
+   "h": 26,
+   "footX": 861,
+   "footY": 1187,
+   "collision": "none",
+   "sortY": 1187
+  },
+  {
+   "file": "objects/bush/bush_017.png",
+   "folder": "bush",
+   "x": 504,
+   "y": 1137,
+   "w": 115,
+   "h": 67,
+   "footX": 566,
+   "footY": 1189,
+   "collision": "none",
+   "sortY": 1189
+  },
+  {
+   "file": "objects/bush/bush_015.png",
+   "folder": "bush",
+   "x": 841,
+   "y": 1134,
+   "w": 115,
+   "h": 70,
+   "footX": 898,
+   "footY": 1189,
+   "collision": "none",
+   "sortY": 1189
+  },
+  {
+   "file": "objects/rock/rock_002.png",
+   "folder": "rock",
+   "x": 340,
+   "y": 1156,
+   "w": 70,
+   "h": 59,
+   "footX": 378,
+   "footY": 1204,
+   "collision": "standing",
+   "sortY": 1190,
+   "feet": [
+    [
+     335,
+     1192
+    ],
+    [
+     342,
+     1211
+    ],
+    [
+     351,
+     1215
+    ],
+    [
+     359,
+     1214
+    ],
+    [
+     369,
+     1214
+    ],
+    [
+     380,
+     1215
+    ],
+    [
+     390,
+     1214
+    ],
+    [
+     398,
+     1215
+    ],
+    [
+     407,
+     1211
+    ],
+    [
+     414,
+     1199
+    ],
+    [
+     414,
+     1197
+    ],
+    [
+     407,
+     1189
+    ],
+    [
+     398,
+     1183
+    ],
+    [
+     390,
+     1180
+    ],
+    [
+     379,
+     1178
+    ],
+    [
+     370,
+     1177
+    ],
+    [
+     359,
+     1180
+    ],
+    [
+     351,
+     1187
+    ],
+    [
+     342,
+     1191
+    ],
+    [
+     335,
+     1190
+    ]
+   ],
+   "shape": "rock"
+  },
+  {
+   "file": "objects/bush/bush_003.png",
+   "folder": "bush",
+   "x": 666,
+   "y": 1071,
+   "w": 92,
+   "h": 134,
+   "footX": 714,
+   "footY": 1196,
+   "collision": "none",
+   "sortY": 1196
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_004.png",
+   "folder": "fern-grass",
+   "x": 399,
+   "y": 1154,
+   "w": 75,
+   "h": 47,
+   "footX": 436,
+   "footY": 1197,
+   "collision": "none",
+   "sortY": 1197
+  },
+  {
+   "file": "objects/bush/bush_007.png",
+   "folder": "bush",
+   "x": 656,
+   "y": 1167,
+   "w": 43,
+   "h": 40,
+   "footX": 678,
+   "footY": 1200,
+   "collision": "none",
+   "sortY": 1200
+  },
+  {
+   "file": "objects/rock/rock_012.png",
+   "folder": "rock",
+   "x": 763,
+   "y": 1179,
+   "w": 40,
+   "h": 25,
+   "footX": 786,
+   "footY": 1200,
+   "collision": "none",
+   "sortY": 1200
+  },
+  {
+   "file": "objects/fern-grass/fern-grass_003.png",
+   "folder": "fern-grass",
+   "x": 210,
+   "y": 1164,
+   "w": 74,
+   "h": 52,
+   "footX": 246,
+   "footY": 1212,
+   "collision": "none",
+   "sortY": 1212
+  }
+ ]
+}

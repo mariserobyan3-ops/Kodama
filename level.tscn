@@ -1,0 +1,621 @@
+[gd_scene format=3 uid="uid://bijga5cx2n214"]
+
+[ext_resource type="Script" uid="uid://dnxhi33el0h27" path="res://kodama.gd" id="1_ait7k"]
+[ext_resource type="Texture2D" uid="uid://dt0rxyio7w8mf" path="res://Pixel Ghost Duo on Transparent Grid.png" id="1_u52ul"]
+[ext_resource type="Texture2D" uid="uid://bhs3kggbrcosh" path="res://ForestMapKit/tiles/forest_tile_03_winding-earth.png" id="2_vonw3"]
+[ext_resource type="Texture2D" uid="uid://718wq6np0prx" path="res://ForestMapKit/objects/bush/bush_019.png" id="3_4c15r"]
+[ext_resource type="Texture2D" uid="uid://boqnkhlxjxk2u" path="res://ForestMapKit/objects/dead-tree/dead-tree_011.png" id="3_oi3di"]
+[ext_resource type="Texture2D" uid="uid://kjorytbg0l2h" path="res://kodama_walk_spritesheet_outline(1).png" id="3_v7sqt"]
+[ext_resource type="Texture2D" uid="uid://sopqyn7kbtw3" path="res://ForestMapKit/objects/bush/bush_011.png" id="4_ait7k"]
+[ext_resource type="Texture2D" uid="uid://bwbffwa8ntmft" path="res://ForestMapKit/objects/dead-tree/dead-tree_012.png" id="4_n6hdu"]
+[ext_resource type="Texture2D" uid="uid://byt6tbdr0nctk" path="res://ForestMapKit/objects/bush/bush_015.png" id="5_42xju"]
+[ext_resource type="Texture2D" uid="uid://j4x5200ukk1q" path="res://ForestMapKit/objects/dead-tree/dead-tree_014.png" id="5_km5ld"]
+[ext_resource type="Texture2D" uid="uid://bfupofgnm5f57" path="res://ForestMapKit/objects/dead-tree/dead-tree_016.png" id="6_i2t4f"]
+[ext_resource type="Texture2D" uid="uid://kdl4iu4b0vyp" path="res://ForestMapKit/objects/bush/bush_004.png" id="6_v7sqt"]
+[ext_resource type="Texture2D" uid="uid://c2r6xjt6s6v75" path="res://ForestMapKit/objects/dead-tree/dead-tree_020.png" id="7_8cye3"]
+[ext_resource type="Texture2D" uid="uid://dpbfonk8d1fba" path="res://ForestMapKit/objects/bush/bush_014.png" id="7_ilwjd"]
+[ext_resource type="Texture2D" uid="uid://bnypw8auwewjg" path="res://ForestMapKit/objects/bush/bush_016.png" id="8_y3bce"]
+[ext_resource type="Texture2D" uid="uid://dnbxq7kkoiiq" path="res://ForestMapKit/objects/bush/bush_003.png" id="9_u3yai"]
+[ext_resource type="Texture2D" uid="uid://bpy4v67mqcovm" path="res://ForestMapKit/objects/bush/bush_009.png" id="10_fj6e6"]
+[ext_resource type="Texture2D" uid="uid://b336n20bs1y2" path="res://ForestMapKit/objects/broadleaf-tree/broadleaf-tree_012.png" id="11_2h3vt"]
+[ext_resource type="Texture2D" uid="uid://bf1x6b0c3srq1" path="res://ForestMapKit/objects/broadleaf-tree/broadleaf-tree_008.png" id="12_yjxuc"]
+[ext_resource type="Texture2D" uid="uid://dwvpgt4ut71vp" path="res://ForestMapKit/objects/landmark/landmark_004.png" id="14_ilwjd"]
+[ext_resource type="Texture2D" uid="uid://bh1ps5g32rnma" path="res://ForestMapKit/objects/fern-grass/fern-grass_001.png" id="18_hvubb"]
+[ext_resource type="Texture2D" uid="uid://cosx4k2nvl27l" path="res://ForestMapKit/objects/log/log_003.png" id="20_42xju"]
+[ext_resource type="Script" uid="uid://c3icss7kooaqo" path="res://cave_entrance.gd" id="23_y3bce"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvgk3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilwjd"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(0, 0, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3bce"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(128, 0, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u3yai"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(256, 0, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fj6e6"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(384, 0, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h3vt"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(512, 0, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yjxuc"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(0, 160, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvubb"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(128, 160, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aoqsc"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(256, 160, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mleqk"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(384, 160, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6btg4"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(512, 160, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sl4om"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(0, 320, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dtg4e"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(128, 320, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ut2i6"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(256, 320, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mnfp"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(384, 320, 128, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qw2y7"]
+atlas = ExtResource("3_v7sqt")
+region = Rect2(512, 320, 128, 160)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kvgk3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ilwjd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3bce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u3yai")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fj6e6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2h3vt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yjxuc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvubb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aoqsc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mleqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6btg4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sl4om")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dtg4e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ut2i6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0mnfp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qw2y7")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hvubb"]
+size = Vector2(68.46155, 29.230797)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yjxuc"]
+size = Vector2(37.000008, 35.00002)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fj6e6"]
+size = Vector2(57, 38)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2h3vt"]
+size = Vector2(93, 77)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wmwd2"]
+size = Vector2(172.14296, 116.428535)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wp8k7"]
+size = Vector2(72.1429, 33.57148)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v7sqt"]
+size = Vector2(51.81251, 68.026886)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ilwjd"]
+size = Vector2(59.339314, 68.026886)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uuqa8"]
+size = Vector2(94.999985, 146.66663)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qw2y7"]
+size = Vector2(290.51587, 137.7778)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_samc1"]
+size = Vector2(177.62239, 166.4335)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oaehd"]
+size = Vector2(165.43994, 191.60843)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f8y3u"]
+size = Vector2(286.71326, 88.11175)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0k1o5"]
+size = Vector2(186.014, 53.90963)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k1ecl"]
+size = Vector2(81.11904, 84.26575)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8kok0"]
+size = Vector2(94.999985, 140.46619)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lrhm2"]
+size = Vector2(94.999985, 91.21207)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_td4uw"]
+size = Vector2(17.068768, 134.81354)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r5f7e"]
+size = Vector2(34.289055, 146.66663)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aoqsc"]
+size = Vector2(61, 32.464252)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mleqk"]
+size = Vector2(82, 40.464252)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6btg4"]
+size = Vector2(32.000008, 16.000002)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sl4om"]
+size = Vector2(75, 46.464252)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dtg4e"]
+size = Vector2(73, 57)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ut2i6"]
+size = Vector2(56, 34)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0mnfp"]
+size = Vector2(67, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y3bce"]
+size = Vector2(45.000023, 25.00001)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u3yai"]
+size = Vector2(68.99999, 64.10713)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fwh6c"]
+size = Vector2(45, 1300)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n5vko"]
+size = Vector2(45, 1300)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fa74a"]
+size = Vector2(1300, 97)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tuxi3"]
+size = Vector2(1300, 43)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gcke2"]
+size = Vector2(71, 67)
+
+[node name="Level1" type="Node2D" unique_id=1433168251]
+
+[node name="World" type="Node2D" parent="." unique_id=2089499456]
+
+[node name="map" type="Node2D" parent="World" unique_id=334705298]
+y_sort_enabled = true
+
+[node name="kodama" type="CharacterBody2D" parent="World/map" unique_id=1971041331]
+scale = Vector2(0.12, 0.12)
+script = ExtResource("1_ait7k")
+
+[node name="Camera2D" type="Camera2D" parent="World/map/kodama" unique_id=1557934711]
+scale = Vector2(8.333333, 8.333333)
+zoom = Vector2(2, 2)
+limit_left = -627
+limit_top = -649
+limit_right = 627
+limit_bottom = 605
+
+[node name="Sprite2D" type="Sprite2D" parent="World/map/kodama" unique_id=1167977101]
+visible = false
+position = Vector2(33.775, -113.67)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_u52ul")
+region_enabled = true
+region_rect = Rect2(874.4079, 70.92819, 404.35797, 758.5886)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/kodama" unique_id=236449613]
+shape = SubResource("RectangleShape2D_kvgk3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="World/map/kodama" unique_id=617616445]
+texture_filter = 1
+position = Vector2(41.66667, 41.666668)
+scale = Vector2(3.9, 3.9)
+sprite_frames = SubResource("SpriteFrames_kvgk3")
+animation = &"walk"
+frame_progress = 0.07915798
+offset = Vector2(0, -65)
+
+[node name="ground" type="Sprite2D" parent="World/map" unique_id=1923962869]
+modulate = Color(0.49803922, 0.6, 0.5803922, 1)
+z_index = -1
+position = Vector2(0, -22)
+texture = ExtResource("2_vonw3")
+
+[node name="Log003" type="Sprite2D" parent="World/map" unique_id=578495802]
+y_sort_enabled = true
+position = Vector2(447.00003, -123.000015)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("20_42xju")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Log003" unique_id=635038176]
+position = Vector2(-3.0769467, -82.307686)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Log003/StaticBody2D" unique_id=930045130]
+y_sort_enabled = true
+position = Vector2(1.1537781, 83.61544)
+shape = SubResource("RectangleShape2D_hvubb")
+
+[node name="FernGrass001" type="Sprite2D" parent="World/map" unique_id=1135935448]
+y_sort_enabled = true
+position = Vector2(-494, 283)
+texture = ExtResource("18_hvubb")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/FernGrass001" unique_id=1021539846]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/FernGrass001/StaticBody2D" unique_id=1637781321]
+y_sort_enabled = true
+position = Vector2(-3.5, 89.5)
+shape = SubResource("RectangleShape2D_yjxuc")
+
+[node name="DeadTree020" type="Sprite2D" parent="World/map" unique_id=1003834566]
+y_sort_enabled = true
+position = Vector2(-457, 309)
+texture = ExtResource("7_8cye3")
+offset = Vector2(0, -79)
+
+[node name="DeadTree016" type="Sprite2D" parent="World/map/DeadTree020" unique_id=1800565457]
+position = Vector2(995, -647.00006)
+texture = ExtResource("6_i2t4f")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree016" unique_id=57614386]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree016/StaticBody2D" unique_id=1301826973]
+y_sort_enabled = true
+position = Vector2(5.5, 101.00006)
+shape = SubResource("RectangleShape2D_fj6e6")
+
+[node name="DeadTree012" type="Sprite2D" parent="World/map/DeadTree020" unique_id=1014697143]
+position = Vector2(901, -26)
+texture = ExtResource("4_n6hdu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree012" unique_id=506680417]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree012/StaticBody2D" unique_id=1861138732]
+y_sort_enabled = true
+position = Vector2(-8.5, 107.5)
+shape = SubResource("RectangleShape2D_2h3vt")
+
+[node name="DeadTree011" type="Sprite2D" parent="World/map/DeadTree020" unique_id=1699872709]
+position = Vector2(464, -498)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("3_oi3di")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree011" unique_id=1847888488]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree011/StaticBody2D" unique_id=1261875909]
+y_sort_enabled = true
+position = Vector2(-3.9285712, 131.49988)
+scale = Vector2(0.99999934, 0.99999934)
+shape = SubResource("RectangleShape2D_wmwd2")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree011" unique_id=205210389]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree011/StaticBody2D2" unique_id=473932905]
+y_sort_enabled = true
+position = Vector2(18.92857, 65.78569)
+scale = Vector2(0.9999994, 0.9999994)
+shape = SubResource("RectangleShape2D_wp8k7")
+
+[node name="DeadTree014" type="Sprite2D" parent="World/map/DeadTree020" unique_id=299426952]
+position = Vector2(-21.99997, -655.00006)
+texture = ExtResource("5_km5ld")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree014" unique_id=422981290]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree014/StaticBody2D" unique_id=1009394671]
+y_sort_enabled = true
+position = Vector2(-3.0000305, 109.00006)
+shape = SubResource("RectangleShape2D_v7sqt")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/DeadTree020" unique_id=994948717]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/StaticBody2D" unique_id=386825172]
+y_sort_enabled = true
+position = Vector2(0.5, 50.25)
+shape = SubResource("RectangleShape2D_ilwjd")
+
+[node name="BroadleafTree008" type="Sprite2D" parent="World/map" unique_id=1580533460]
+position = Vector2(21, 306)
+scale = Vector2(0.6000001, 0.6000001)
+texture = ExtResource("12_yjxuc")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/BroadleafTree008" unique_id=529905220]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/BroadleafTree008/StaticBody2D" unique_id=1060016669]
+y_sort_enabled = true
+position = Vector2(4.1666756, 160.66663)
+shape = SubResource("RectangleShape2D_uuqa8")
+
+[node name="BroadleafTree012" type="Sprite2D" parent="World/map/BroadleafTree008" unique_id=238524165]
+position = Vector2(564.9999, -1379.9998)
+scale = Vector2(0.7499999, 0.7499999)
+texture = ExtResource("11_2h3vt")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/BroadleafTree008/BroadleafTree012" unique_id=5240988]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/BroadleafTree008/BroadleafTree012/StaticBody2D" unique_id=1651361351]
+y_sort_enabled = true
+position = Vector2(41.40869, 247.8888)
+shape = SubResource("RectangleShape2D_qw2y7")
+
+[node name="cave" type="Sprite2D" parent="World/map" unique_id=390920885]
+position = Vector2(-239, -468)
+scale = Vector2(0.715, 0.715)
+texture = ExtResource("14_ilwjd")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/cave" unique_id=1843894786]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D" unique_id=945476182]
+y_sort_enabled = true
+position = Vector2(-141.95804, 116.06305)
+shape = SubResource("RectangleShape2D_samc1")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="World/map/cave" unique_id=893583007]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D2" unique_id=247557229]
+y_sort_enabled = true
+position = Vector2(162.03528, 127.95105)
+shape = SubResource("RectangleShape2D_oaehd")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="World/map/cave" unique_id=2139339417]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D3" unique_id=2143601085]
+y_sort_enabled = true
+position = Vector2(-6.29364, 22.35675)
+shape = SubResource("RectangleShape2D_f8y3u")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="World/map/cave" unique_id=709796722]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D4" unique_id=1997782197]
+y_sort_enabled = true
+position = Vector2(13.286713, -42.296936)
+shape = SubResource("RectangleShape2D_0k1o5")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="World/map/cave" unique_id=439381940]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D5" unique_id=1581680030]
+y_sort_enabled = true
+position = Vector2(-222.3775, 88.61542)
+shape = SubResource("RectangleShape2D_k1ecl")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="World/map/cave" unique_id=473931570]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D6" unique_id=536030290]
+y_sort_enabled = true
+position = Vector2(-124.475525, 33.14923)
+shape = SubResource("RectangleShape2D_8kok0")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="World/map/cave" unique_id=1051247646]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D7" unique_id=1844487234]
+y_sort_enabled = true
+position = Vector2(246.15385, 147.53145)
+shape = SubResource("RectangleShape2D_lrhm2")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="World/map/cave" unique_id=1245925592]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D8" unique_id=1822687184]
+y_sort_enabled = true
+position = Vector2(-44.612457, 112.84039)
+shape = SubResource("RectangleShape2D_td4uw")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="World/map/cave" unique_id=1407093137]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D9" unique_id=1674286473]
+y_sort_enabled = true
+position = Vector2(60.139862, 125.15384)
+shape = SubResource("RectangleShape2D_r5f7e")
+
+[node name="Bush019" type="Sprite2D" parent="World/map" unique_id=1993856745]
+y_sort_enabled = true
+position = Vector2(-546, 60)
+texture = ExtResource("3_4c15r")
+
+[node name="Bush011" type="Sprite2D" parent="World/map/Bush019" unique_id=1026573725]
+position = Vector2(1046, 447)
+texture = ExtResource("4_ait7k")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush011" unique_id=1989329708]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush011/StaticBody2D" unique_id=160877634]
+y_sort_enabled = true
+position = Vector2(7.5, 92.23212)
+shape = SubResource("RectangleShape2D_aoqsc")
+
+[node name="Bush015" type="Sprite2D" parent="World/map/Bush019" unique_id=1279477804]
+position = Vector2(235, 458)
+texture = ExtResource("5_42xju")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush015" unique_id=252782822]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush015/StaticBody2D" unique_id=1294744017]
+y_sort_enabled = true
+position = Vector2(7, 88.23212)
+shape = SubResource("RectangleShape2D_mleqk")
+
+[node name="Bush004" type="Sprite2D" parent="World/map/Bush019" unique_id=774695068]
+position = Vector2(745, 138)
+texture = ExtResource("6_v7sqt")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush004" unique_id=624548880]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush004/StaticBody2D" unique_id=1300089508]
+y_sort_enabled = true
+position = Vector2(1, 88)
+shape = SubResource("RectangleShape2D_6btg4")
+
+[node name="Bush014" type="Sprite2D" parent="World/map/Bush019" unique_id=1133375673]
+position = Vector2(157, 446)
+texture = ExtResource("7_ilwjd")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush014" unique_id=1571890463]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush014/StaticBody2D" unique_id=376496447]
+y_sort_enabled = true
+position = Vector2(-7.5, 85.23212)
+shape = SubResource("RectangleShape2D_sl4om")
+
+[node name="Bush016" type="Sprite2D" parent="World/map/Bush019" unique_id=1788748765]
+position = Vector2(179, 477)
+texture = ExtResource("8_y3bce")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush016" unique_id=1821937569]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush016/StaticBody2D" unique_id=792377912]
+y_sort_enabled = true
+position = Vector2(-1.5, 88.5)
+shape = SubResource("RectangleShape2D_dtg4e")
+
+[node name="Bush012" type="Sprite2D" parent="World/map/Bush019" unique_id=16828235]
+position = Vector2(289, -235)
+texture = ExtResource("4_ait7k")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush012" unique_id=2094369099]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush012/StaticBody2D" unique_id=332255253]
+y_sort_enabled = true
+position = Vector2(0, 88)
+shape = SubResource("RectangleShape2D_ut2i6")
+
+[node name="Bush003" type="Sprite2D" parent="World/map/Bush019" unique_id=1168998720]
+position = Vector2(1035, -80)
+texture = ExtResource("9_u3yai")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush003" unique_id=914868780]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush003/StaticBody2D" unique_id=895221904]
+y_sort_enabled = true
+position = Vector2(4.5, 111)
+shape = SubResource("RectangleShape2D_0mnfp")
+
+[node name="Bush009" type="Sprite2D" parent="World/map/Bush019" unique_id=1266522783]
+position = Vector2(1086, 425)
+texture = ExtResource("10_fj6e6")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019/Bush009" unique_id=857827805]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/Bush009/StaticBody2D" unique_id=66130040]
+y_sort_enabled = true
+position = Vector2(5, 86)
+shape = SubResource("RectangleShape2D_y3bce")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/Bush019" unique_id=1265317668]
+position = Vector2(0, -79)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/Bush019/StaticBody2D" unique_id=1584367641]
+y_sort_enabled = true
+position = Vector2(-1.5, 121.053566)
+shape = SubResource("RectangleShape2D_u3yai")
+
+[node name="borders" type="StaticBody2D" parent="World" unique_id=1335603161]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/borders" unique_id=1535888860]
+position = Vector2(-644.5, -22)
+shape = SubResource("RectangleShape2D_fwh6c")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="World/borders" unique_id=1068730451]
+position = Vector2(644.5, -22)
+shape = SubResource("RectangleShape2D_n5vko")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="World/borders" unique_id=2008590109]
+position = Vector2(0, -640.5)
+shape = SubResource("RectangleShape2D_fa74a")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="World/borders" unique_id=1423443353]
+position = Vector2(0, 623.5)
+shape = SubResource("RectangleShape2D_tuxi3")
+
+[node name="CaveEntrance" type="Area2D" parent="World" unique_id=1483152606]
+script = ExtResource("23_y3bce")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/CaveEntrance" unique_id=905488839]
+position = Vector2(-226, -447.5)
+shape = SubResource("RectangleShape2D_gcke2")

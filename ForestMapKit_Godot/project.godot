@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Forest Map Kit - Godot 4 example project. Copy the ForestMapKit folder next to this file, open the project, press Play.
+
+config_version=5
+
+[application]
+
+config/name="Forest Map Kit - Godot example"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.2")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/forest_map_kit/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
