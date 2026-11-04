@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://c8orid62yge7r"]
+
+[ext_resource type="Texture2D" uid="uid://c8stlfd3c2rak" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_007.png" id="1_ooju4"]
+[ext_resource type="Texture2D" uid="uid://b1c2ok8svlt14" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_006.png" id="2_66rie"]
+[ext_resource type="Texture2D" uid="uid://cfvwh5q4ab688" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_005.png" id="3_r78l8"]
+[ext_resource type="Script" uid="uid://cryqolxmgkhpr" path="res://back_ground_005.gd" id="4_66rie"]
+[ext_resource type="Texture2D" uid="uid://c47ff8i2ecdae" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_004.png" id="4_ekb5c"]
+[ext_resource type="Texture2D" uid="uid://crroecm4t3xxi" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_003.png" id="5_0kl60"]
+[ext_resource type="Texture2D" uid="uid://dml5wr3x20a11" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_002.png" id="6_j8euu"]
+[ext_resource type="Texture2D" uid="uid://c4ipvfrqd3bxo" path="res://Forest&&Moon Pixel Art/PNG/Layers/BackGround_001.png" id="7_rkolq"]
+
+[node name="menu_bg" type="ParallaxBackground" unique_id=723841340]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=235062626]
+
+[node name="BackGround007" type="Sprite2D" parent="ParallaxLayer" unique_id=157167734]
+position = Vector2(599, 323.5)
+scale = Vector2(3.6055555, 3.6055555)
+texture = ExtResource("1_ooju4")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="." unique_id=265230957]
+
+[node name="BackGround006" type="Sprite2D" parent="ParallaxLayer2" unique_id=32352344]
+position = Vector2(604, 327.5)
+scale = Vector2(3.6055555, 3.6055555)
+texture = ExtResource("2_66rie")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="." unique_id=1320111316]
+motion_mirroring = Vector2(1293.94, 0)
+
+[node name="BackGround005" type="Sprite2D" parent="ParallaxLayer3" unique_id=102496970]
+position = Vector2(600, 325.5)
+scale = Vector2(3.5944448, 3.5944448)
+texture = ExtResource("3_r78l8")
+script = ExtResource("4_66rie")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="." unique_id=2094242464]
+
+[node name="BackGround004" type="Sprite2D" parent="ParallaxLayer4" unique_id=1092946549]
+position = Vector2(599, 323.5)
+scale = Vector2(3.5833337, 3.5833337)
+texture = ExtResource("4_ekb5c")
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="." unique_id=1056566572]
+
+[node name="BackGround003" type="Sprite2D" parent="ParallaxLayer5" unique_id=200653211]
+position = Vector2(600, 327.5)
+scale = Vector2(3.6055555, 3.6055555)
+texture = ExtResource("5_0kl60")
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="." unique_id=39741535]
+
+[node name="BackGround002" type="Sprite2D" parent="ParallaxLayer6" unique_id=991041004]
+position = Vector2(600, 322.5)
+scale = Vector2(3.5944443, 3.5944443)
+texture = ExtResource("6_j8euu")
+
+[node name="ParallaxLayer7" type="ParallaxLayer" parent="." unique_id=751674619]
+
+[node name="BackGround001" type="Sprite2D" parent="ParallaxLayer7" unique_id=257471752]
+position = Vector2(597, 322.5)
+scale = Vector2(3.5944445, 3.5944445)
+texture = ExtResource("7_rkolq")
