@@ -31,8 +31,8 @@ Godot Engine 4.7.2
 
 ## Команда
 
-**Coca Cola**
+**Coca Cola Game Studio**
 
 ## Ресурсы
 
-Фоновые слои: набор **Forest&&Moon Pixel Art** (уточнить условия использования).
+Фоновые слои: набор **Forest&&Moon Pixel Art**.
