@@ -167,7 +167,7 @@ size = Vector2(59.339314, 68.026886)
 size = Vector2(94.999985, 146.66663)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qw2y7"]
-size = Vector2(290.51587, 137.7778)
+size = Vector2(320.00003, 148.78128)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_samc1"]
 size = Vector2(177.62239, 166.4335)
@@ -396,17 +396,18 @@ y_sort_enabled = true
 position = Vector2(4.1666756, 160.66663)
 shape = SubResource("RectangleShape2D_uuqa8")
 
-[node name="BroadleafTree012" type="Sprite2D" parent="World/map/BroadleafTree008" unique_id=238524165]
-position = Vector2(564.9999, -1379.9998)
-scale = Vector2(0.7499999, 0.7499999)
+[node name="BroadleafTree013" type="Sprite2D" parent="World/map" unique_id=913985261]
+position = Vector2(307.00006, -443.00006)
+scale = Vector2(0.45, 0.45)
 texture = ExtResource("11_2h3vt")
+offset = Vector2(-40, -189)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="World/map/BroadleafTree008/BroadleafTree012" unique_id=5240988]
-position = Vector2(0, -79)
+[node name="StaticBody2D" type="StaticBody2D" parent="World/map/BroadleafTree013" unique_id=695560570]
+position = Vector2(4.444309, -2.222107)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/BroadleafTree008/BroadleafTree012/StaticBody2D" unique_id=1651361351]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/BroadleafTree013/StaticBody2D" unique_id=645110121]
 y_sort_enabled = true
-position = Vector2(41.40869, 247.8888)
+position = Vector2(20.000008, 13.333355)
 shape = SubResource("RectangleShape2D_qw2y7")
 
 [node name="cave" type="Sprite2D" parent="World/map" unique_id=390920885]
