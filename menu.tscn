@@ -48,20 +48,20 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_mae5d")
 text = "Quit"
 
 [node name="title" type="Label" parent="." unique_id=1163705297]
-offset_left = 107.0
-offset_top = 77.0
-offset_right = 381.0
-offset_bottom = 144.0
+offset_left = 145.0
+offset_top = 71.0
+offset_right = 419.0
+offset_bottom = 138.0
 text = "K O D A M A"
 label_settings = SubResource("LabelSettings_kvgk3")
 
 [node name="subtitle" type="Label" parent="." unique_id=260986230]
-offset_left = 146.0
-offset_top = 137.0
-offset_right = 339.0
-offset_bottom = 160.0
+offset_left = 148.0
+offset_top = 123.0
+offset_right = 341.0
+offset_bottom = 146.0
 theme_override_font_sizes/font_size = 18
-text = "THE FOREST REMEMBERS"
+text = "Hope Under Dead Wood"
 label_settings = SubResource("LabelSettings_wmwd2")
 
 [node name="menu-bg" parent="." unique_id=1949743226 instance=ExtResource("2_ouk20")]

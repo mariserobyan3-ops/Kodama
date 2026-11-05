@@ -10,8 +10,9 @@ func _ready():
 	var layer = CanvasLayer.new()
 	add_child(layer)
 	hint_label = Label.new()
-	hint_label.text = "Нажмите E, чтобы взаимодействовать"
-	hint_label.position = Vector2(20, 20)
+	hint_label.text = "Нажмите E, чтобы разгадать загадку"
+	hint_label.position = Vector2(21, 21)
+	hint_label.add_theme_font_size_override("font_size", 20)
 	layer.add_child(hint_label)
 	panel = Panel.new()
 	panel.position = Vector2(200, 150)
@@ -19,7 +20,7 @@ func _ready():
 	panel.visible = false
 	layer.add_child(panel)
 	status_label = Label.new()
-	status_label.position = Vector2(20, 20)
+	status_label.position = Vector2(21, 21)
 	panel.add_child(status_label)
 	for i in range(fragments.size()):
 		var b = Button.new()
