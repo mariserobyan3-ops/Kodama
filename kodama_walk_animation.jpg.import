@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btgngnf8q0jmq"
-path="res://.godot/imported/кодики4.png-35160a739f904e075fdd746bc5922e75.ctex"
+uid="uid://c5vfsq5uhh5vm"
+path="res://.godot/imported/kodama_walk_animation.jpg-a7cc69fd103dd3d6ee27963fa3f40ce7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://кодики4.png"
-dest_files=["res://.godot/imported/кодики4.png-35160a739f904e075fdd746bc5922e75.ctex"]
+source_file="res://kodama_walk_animation.jpg"
+dest_files=["res://.godot/imported/kodama_walk_animation.jpg-a7cc69fd103dd3d6ee27963fa3f40ce7.ctex"]
 
 [params]
 

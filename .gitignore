@@ -22,3 +22,6 @@ mono_crash.*.json
 *.zip
 *.lnk
 /Kodama/
+export/
+web/
+files.txt
