@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kjorytbg0l2h"
-path="res://.godot/imported/kodama_walk_spritesheet_outline(1).png-11f9e031e7f42123a818569241273130.ctex"
+uid="uid://bv7dlxxc7nkk3"
+path="res://.godot/imported/Untitled 11-05-2026 09-31-48.png-5ccd9b913dd8c1d3096c6b8b7692975c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kodama_walk_spritesheet_outline(1).png"
-dest_files=["res://.godot/imported/kodama_walk_spritesheet_outline(1).png-11f9e031e7f42123a818569241273130.ctex"]
+source_file="res://Player/Untitled 11-05-2026 09-31-48.png"
+dest_files=["res://.godot/imported/Untitled 11-05-2026 09-31-48.png-5ccd9b913dd8c1d3096c6b8b7692975c.ctex"]
 
 [params]
 

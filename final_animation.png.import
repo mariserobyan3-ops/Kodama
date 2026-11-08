@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1afpcveihn10"
-path="res://.godot/imported/кодики5.png-37b626a7b1f72cbbe2a97f43cd7ec38d.ctex"
+uid="uid://dxt1nc2eth5mc"
+path="res://.godot/imported/final_animation.png-0f6c08c9db00640b334a747fbc75f08d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://кодики5.png"
-dest_files=["res://.godot/imported/кодики5.png-37b626a7b1f72cbbe2a97f43cd7ec38d.ctex"]
+source_file="res://final_animation.png"
+dest_files=["res://.godot/imported/final_animation.png-0f6c08c9db00640b334a747fbc75f08d.ctex"]
 
 [params]
 

@@ -1,11 +1,8 @@
 [gd_scene format=3 uid="uid://bijga5cx2n214"]
 
-[ext_resource type="Script" uid="uid://dnxhi33el0h27" path="res://kodama.gd" id="1_ait7k"]
-[ext_resource type="Texture2D" uid="uid://dt0rxyio7w8mf" path="res://Pixel Ghost Duo on Transparent Grid.png" id="1_u52ul"]
 [ext_resource type="Texture2D" uid="uid://bhs3kggbrcosh" path="res://ForestMapKit/tiles/forest_tile_03_winding-earth.png" id="2_vonw3"]
 [ext_resource type="Texture2D" uid="uid://718wq6np0prx" path="res://ForestMapKit/objects/bush/bush_019.png" id="3_4c15r"]
 [ext_resource type="Texture2D" uid="uid://boqnkhlxjxk2u" path="res://ForestMapKit/objects/dead-tree/dead-tree_011.png" id="3_oi3di"]
-[ext_resource type="Texture2D" uid="uid://kjorytbg0l2h" path="res://kodama_walk_spritesheet_outline(1).png" id="3_v7sqt"]
 [ext_resource type="Texture2D" uid="uid://sopqyn7kbtw3" path="res://ForestMapKit/objects/bush/bush_011.png" id="4_ait7k"]
 [ext_resource type="Texture2D" uid="uid://bwbffwa8ntmft" path="res://ForestMapKit/objects/dead-tree/dead-tree_012.png" id="4_n6hdu"]
 [ext_resource type="Texture2D" uid="uid://byt6tbdr0nctk" path="res://ForestMapKit/objects/bush/bush_015.png" id="5_42xju"]
@@ -15,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://c2r6xjt6s6v75" path="res://ForestMapKit/objects/dead-tree/dead-tree_020.png" id="7_8cye3"]
 [ext_resource type="Texture2D" uid="uid://dpbfonk8d1fba" path="res://ForestMapKit/objects/bush/bush_014.png" id="7_ilwjd"]
 [ext_resource type="Texture2D" uid="uid://bnypw8auwewjg" path="res://ForestMapKit/objects/bush/bush_016.png" id="8_y3bce"]
+[ext_resource type="PackedScene" uid="uid://bkw5rwnnvbgxn" path="res://Player/player.tscn" id="9_aoqsc"]
 [ext_resource type="Texture2D" uid="uid://dnbxq7kkoiiq" path="res://ForestMapKit/objects/bush/bush_003.png" id="9_u3yai"]
 [ext_resource type="Texture2D" uid="uid://bpy4v67mqcovm" path="res://ForestMapKit/objects/bush/bush_009.png" id="10_fj6e6"]
 [ext_resource type="Texture2D" uid="uid://b336n20bs1y2" path="res://ForestMapKit/objects/broadleaf-tree/broadleaf-tree_012.png" id="11_2h3vt"]
@@ -23,121 +21,6 @@
 [ext_resource type="Texture2D" uid="uid://bh1ps5g32rnma" path="res://ForestMapKit/objects/fern-grass/fern-grass_001.png" id="18_hvubb"]
 [ext_resource type="Texture2D" uid="uid://cosx4k2nvl27l" path="res://ForestMapKit/objects/log/log_003.png" id="20_42xju"]
 [ext_resource type="Script" uid="uid://c3icss7kooaqo" path="res://cave_entrance.gd" id="23_y3bce"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvgk3"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ilwjd"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(0, 0, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_y3bce"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(128, 0, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_u3yai"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(256, 0, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fj6e6"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(384, 0, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_2h3vt"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(512, 0, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_yjxuc"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(0, 160, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_hvubb"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(128, 160, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_aoqsc"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(256, 160, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mleqk"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(384, 160, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6btg4"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(512, 160, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_sl4om"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(0, 320, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_dtg4e"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(128, 320, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ut2i6"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(256, 320, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0mnfp"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(384, 320, 128, 160)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qw2y7"]
-atlas = ExtResource("3_v7sqt")
-region = Rect2(512, 320, 128, 160)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_kvgk3"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ilwjd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_y3bce")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_u3yai")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_fj6e6")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_2h3vt")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_yjxuc")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_hvubb")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_aoqsc")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mleqk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6btg4")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_sl4om")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dtg4e")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ut2i6")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0mnfp")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_qw2y7")
-}],
-"loop": 1,
-"name": &"walk",
-"speed": 8.0
-}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hvubb"]
 size = Vector2(68.46155, 29.230797)
@@ -152,10 +35,10 @@ size = Vector2(57, 38)
 size = Vector2(93, 77)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wmwd2"]
-size = Vector2(172.14296, 116.428535)
+size = Vector2(168.5716, 62.8573)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wp8k7"]
-size = Vector2(72.1429, 33.57148)
+size = Vector2(72.1429, 44.642887)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v7sqt"]
 size = Vector2(51.81251, 68.026886)
@@ -191,7 +74,7 @@ size = Vector2(94.999985, 140.46619)
 size = Vector2(94.999985, 91.21207)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_td4uw"]
-size = Vector2(17.068768, 134.81354)
+size = Vector2(30.769207, 127.272675)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r5f7e"]
 size = Vector2(34.289055, 146.66663)
@@ -236,7 +119,7 @@ size = Vector2(1300, 97)
 size = Vector2(1300, 43)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gcke2"]
-size = Vector2(71, 67)
+size = Vector2(63.5, 70)
 
 [node name="Level1" type="Node2D" unique_id=1433168251]
 
@@ -244,38 +127,6 @@ size = Vector2(71, 67)
 
 [node name="map" type="Node2D" parent="World" unique_id=334705298]
 y_sort_enabled = true
-
-[node name="kodama" type="CharacterBody2D" parent="World/map" unique_id=1971041331]
-scale = Vector2(0.12, 0.12)
-script = ExtResource("1_ait7k")
-
-[node name="Camera2D" type="Camera2D" parent="World/map/kodama" unique_id=1557934711]
-scale = Vector2(8.333333, 8.333333)
-zoom = Vector2(2, 2)
-limit_left = -627
-limit_top = -649
-limit_right = 627
-limit_bottom = 605
-
-[node name="Sprite2D" type="Sprite2D" parent="World/map/kodama" unique_id=1167977101]
-visible = false
-position = Vector2(33.775, -113.67)
-scale = Vector2(0.8, 0.8)
-texture = ExtResource("1_u52ul")
-region_enabled = true
-region_rect = Rect2(874.4079, 70.92819, 404.35797, 758.5886)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/kodama" unique_id=236449613]
-shape = SubResource("RectangleShape2D_kvgk3")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="World/map/kodama" unique_id=617616445]
-texture_filter = 1
-position = Vector2(41.66667, 41.666668)
-scale = Vector2(3.9, 3.9)
-sprite_frames = SubResource("SpriteFrames_kvgk3")
-animation = &"walk"
-frame_progress = 0.07915798
-offset = Vector2(0, -65)
 
 [node name="ground" type="Sprite2D" parent="World/map" unique_id=1923962869]
 modulate = Color(0.49803922, 0.6, 0.5803922, 1)
@@ -350,8 +201,8 @@ position = Vector2(0, -79)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree011/StaticBody2D" unique_id=1261875909]
 y_sort_enabled = true
-position = Vector2(-3.9285712, 131.49988)
-scale = Vector2(0.99999934, 0.99999934)
+position = Vector2(4.28571, 146.14276)
+scale = Vector2(0.9999989, 0.9999989)
 shape = SubResource("RectangleShape2D_wmwd2")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="World/map/DeadTree020/DeadTree011" unique_id=205210389]
@@ -359,8 +210,8 @@ position = Vector2(0, -79)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/DeadTree020/DeadTree011/StaticBody2D2" unique_id=473932905]
 y_sort_enabled = true
-position = Vector2(18.92857, 65.78569)
-scale = Vector2(0.9999994, 0.9999994)
+position = Vector2(14.285711, 96.32141)
+scale = Vector2(0.99999934, 0.99999934)
 shape = SubResource("RectangleShape2D_wp8k7")
 
 [node name="DeadTree014" type="Sprite2D" parent="World/map/DeadTree020" unique_id=299426952]
@@ -476,7 +327,7 @@ position = Vector2(0, -79)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/map/cave/StaticBody2D8" unique_id=1822687184]
 y_sort_enabled = true
-position = Vector2(-44.612457, 112.84039)
+position = Vector2(-37.762238, 109.07001)
 shape = SubResource("RectangleShape2D_td4uw")
 
 [node name="StaticBody2D9" type="StaticBody2D" parent="World/map/cave" unique_id=1407093137]
@@ -596,6 +447,8 @@ y_sort_enabled = true
 position = Vector2(-1.5, 121.053566)
 shape = SubResource("RectangleShape2D_u3yai")
 
+[node name="Player" parent="World/map" unique_id=1207582541 instance=ExtResource("9_aoqsc")]
+
 [node name="borders" type="StaticBody2D" parent="World" unique_id=1335603161]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/borders" unique_id=1535888860]
@@ -618,5 +471,5 @@ shape = SubResource("RectangleShape2D_tuxi3")
 script = ExtResource("23_y3bce")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/CaveEntrance" unique_id=905488839]
-position = Vector2(-226, -447.5)
+position = Vector2(-222.25, -446)
 shape = SubResource("RectangleShape2D_gcke2")

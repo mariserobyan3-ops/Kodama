@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drxdpauax12ya"
-path="res://.godot/imported/кодики3.png-9bf390b89f6a4832a0972f290c8fb11d.ctex"
+uid="uid://bb537bale6mtl"
+path="res://.godot/imported/kodama_at_maze.png-b1d474761f3446d327f85e987378409e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://кодики3.png"
-dest_files=["res://.godot/imported/кодики3.png-9bf390b89f6a4832a0972f290c8fb11d.ctex"]
+source_file="res://kodama_at_maze.png"
+dest_files=["res://.godot/imported/kodama_at_maze.png-b1d474761f3446d327f85e987378409e.ctex"]
 
 [params]
 

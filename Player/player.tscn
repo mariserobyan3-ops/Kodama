@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://bkw5rwnnvbgxn"]
+
+[ext_resource type="Texture2D" uid="uid://cg5ige1f0apv5" path="res://Player/Untitled 11-05-2026 09-31-45.png" id="1_fhl08"]
+[ext_resource type="Script" uid="uid://44xsvne7ptrs" path="res://Player/player.gd" id="1_vtle1"]
+[ext_resource type="Texture2D" uid="uid://c8uhmr55npfb5" path="res://Player/Untitled 11-05-2026 09-31-46.png" id="2_vtle1"]
+[ext_resource type="Texture2D" uid="uid://da66sstn5t6a3" path="res://Player/Untitled 11-05-2026 09-31-47.png" id="3_od3ui"]
+[ext_resource type="Texture2D" uid="uid://bv7dlxxc7nkk3" path="res://Player/Untitled 11-05-2026 09-31-48.png" id="4_00tjw"]
+[ext_resource type="Texture2D" uid="uid://x3kwxmv5k7ue" path="res://Player/Untitled 11-05-2026 09-31-49.png" id="5_x3vf3"]
+[ext_resource type="Texture2D" uid="uid://d0x5vw6w3x61h" path="res://Player/Untitled 11-05-2026 09-31-50.png" id="6_apopc"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jxtkp"]
+radius = 14.0
+height = 44.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jxtkp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fhl08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vtle1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_od3ui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_00tjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_x3vf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_apopc")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=1207582541]
+script = ExtResource("1_vtle1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=561972034]
+shape = SubResource("CapsuleShape2D_jxtkp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2071574919]
+position = Vector2(3, -17.000002)
+scale = Vector2(0.378125, 0.378125)
+sprite_frames = SubResource("SpriteFrames_jxtkp")
+animation = &"walk"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=527786515]
+zoom = Vector2(2, 2)
+process_callback = 0
+limit_left = -627
+limit_top = -627
+limit_right = 627
+limit_bottom = 627

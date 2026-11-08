@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s7ojc2urbcwk"
-path="res://.godot/imported/кодики2.png-49ae67577bb5034718deb3fc2f81cd0a.ctex"
+uid="uid://da66sstn5t6a3"
+path="res://.godot/imported/Untitled 11-05-2026 09-31-47.png-4de29c63f40b0a689c52f77ef241cce7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://кодики2.png"
-dest_files=["res://.godot/imported/кодики2.png-49ae67577bb5034718deb3fc2f81cd0a.ctex"]
+source_file="res://Player/Untitled 11-05-2026 09-31-47.png"
+dest_files=["res://.godot/imported/Untitled 11-05-2026 09-31-47.png-4de29c63f40b0a689c52f77ef241cce7.ctex"]
 
 [params]
 

@@ -14,9 +14,6 @@ func _physics_process(_delta: float) -> void:
 	global_position.x = clampf(
 		global_position.x, MAP_LEFT, MAP_RIGHT
 	)
-	global_position.y = clampf(
-		global_position.y, MAP_TOP, MAP_BOTTOM
-	)
 	if direction != Vector2.ZERO:
 		sprite.play("walk")
 		if direction.x != 0.0:
