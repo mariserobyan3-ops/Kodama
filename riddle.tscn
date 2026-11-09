@@ -54,6 +54,7 @@ texture = ExtResource("1_wja0g")
 [node name="kodama" type="CharacterBody2D" parent="." unique_id=796285168]
 scale = Vector2(0.12, 0.12)
 script = ExtResource("3_0116d")
+horizontal_only = true
 
 [node name="Camera2D" type="Camera2D" parent="kodama" unique_id=1414184855]
 position = Vector2(3033.3333, 3449.9998)
