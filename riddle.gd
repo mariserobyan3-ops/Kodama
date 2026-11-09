@@ -1,6 +1,6 @@
 extends Node2D
 
-var fragments: Array = ["because it is rooted", "The wind bends the grass", "but the oak does not bend", "in the ground"]
+var fragments: Array = ["because it is rooted", "The wind bends the grass", "in the ground", "but the oak does not bend"]
 var answer: Array = ["The wind bends the grass", "but the oak does not bend", "because it is rooted", "in the ground"]
 var busy := false
 var picked: Array = []
