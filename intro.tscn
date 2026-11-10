@@ -6,7 +6,6 @@
 [ext_resource type="AudioStream" uid="uid://3jvwwkr7bdkw" path="res://audio/line_3.mp3" id="4_dpxxx"]
 [ext_resource type="AudioStream" uid="uid://c1ia1ydvmau6o" path="res://audio/line_4.mp3" id="5_dk2oa"]
 [ext_resource type="AudioStream" uid="uid://duwcpwe0gwjin" path="res://audio/line_5.mp3" id="6_7ufi4"]
-[ext_resource type="AudioStream" uid="uid://bihrh4cutydce" path="res://audio/Faint Hope.mp3" id="7_y6ycx"]
 
 [node name="Intro" type="Control" unique_id=1455399671]
 layout_mode = 3
@@ -17,7 +16,6 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ayt76")
 voice_lines = Array[AudioStream]([ExtResource("2_u2rf6"), ExtResource("3_y6ycx"), ExtResource("4_dpxxx"), ExtResource("5_dk2oa"), ExtResource("6_7ufi4")])
-music_stream = ExtResource("7_y6ycx")
 
 [node name="Dim" type="ColorRect" parent="." unique_id=182164976]
 layout_mode = 1

@@ -78,7 +78,7 @@ func _on_button_pressed(text, button):
 	if picked == answer:
 		status_label.text = "Runes glow! The passage is open."
 		await get_tree().create_timer(2.0).timeout
-		get_tree().change_scene_to_file("res://menu.tscn")
+		get_tree().change_scene_to_file("res://ending.tscn")
 	else:
 		status_label.text = "Not quite right. Try again."
 		await get_tree().create_timer(1.0).timeout
