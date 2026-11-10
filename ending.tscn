@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://bb8jfw27cbv8y"]
 
+[ext_resource type="Script" uid="uid://dnadv4g1x5wks" path="res://ending.gd" id="1_4jooh"]
 [ext_resource type="Texture2D" uid="uid://da2cfjjlydu6w" path="res://ending_dead_forest.jpg" id="1_fsb5k"]
+[ext_resource type="Texture2D" uid="uid://boxpb1pqnyxau" path="res://ending_blooming_forest.jpg" id="2_dmh3q"]
 
 [node name="Ending" type="Control" unique_id=656623335]
 layout_mode = 3
@@ -9,6 +11,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_4jooh")
+credit_lines = null
+credit_voices = null
+credit_time = null
+planting_time = null
+bloom_time = null
+fade_time = null
 
 [node name="DeadForest" type="TextureRect" parent="." unique_id=455364055]
 layout_mode = 1
@@ -19,3 +28,38 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_fsb5k")
 expand_mode = 1
+stretch_mode = 6
+
+[node name="BloomingForest" type="TextureRect" parent="." unique_id=1676611152]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_dmh3q")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Fade" type="ColorRect" parent="." unique_id=1252968674]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Credits" type="Label" parent="." unique_id=1540398428]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Voice" type="AudioStreamPlayer" parent="." unique_id=2087685318]
