@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://llg3bv3b4bjb"]
+
+[ext_resource type="Script" uid="uid://cx16lf81vijjv" path="res://riddle.gd" id="1_vsh3b"]
+[ext_resource type="Texture2D" uid="uid://o1mpae1cj1p3" path="res://photo_2026-10-28_20-14-06.jpg" id="1_wja0g"]
+[ext_resource type="Script" uid="uid://dnxhi33el0h27" path="res://kodama.gd" id="3_0116d"]
+[ext_resource type="Texture2D" uid="uid://dt0rxyio7w8mf" path="res://Pixel Ghost Duo on Transparent Grid.png" id="4_kyjep"]
+[ext_resource type="Texture2D" uid="uid://cg5ige1f0apv5" path="res://Player/Untitled 11-05-2026 09-31-45.png" id="5_0o8o7"]
+[ext_resource type="Texture2D" uid="uid://c8uhmr55npfb5" path="res://Player/Untitled 11-05-2026 09-31-46.png" id="6_q6k4e"]
+[ext_resource type="Texture2D" uid="uid://da66sstn5t6a3" path="res://Player/Untitled 11-05-2026 09-31-47.png" id="7_8c46y"]
+[ext_resource type="Texture2D" uid="uid://bv7dlxxc7nkk3" path="res://Player/Untitled 11-05-2026 09-31-48.png" id="8_m86th"]
+[ext_resource type="Texture2D" uid="uid://x3kwxmv5k7ue" path="res://Player/Untitled 11-05-2026 09-31-49.png" id="9_dxdgx"]
+[ext_resource type="Texture2D" uid="uid://d0x5vw6w3x61h" path="res://Player/Untitled 11-05-2026 09-31-50.png" id="10_hbof2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8op1d"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rfnkb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_0o8o7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_q6k4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8c46y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_m86th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dxdgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_hbof2")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvgk3"]
+size = Vector2(198, 67)
+
+[node name="Riddle" type="Node2D" unique_id=922815105]
+script = ExtResource("1_vsh3b")
+
+[node name="background" type="Sprite2D" parent="." unique_id=968255325]
+texture_filter = 1
+position = Vector2(578, 327.49997)
+scale = Vector2(0.8999999, 0.7593023)
+texture = ExtResource("1_wja0g")
+
+[node name="kodama" type="CharacterBody2D" parent="." unique_id=796285168]
+scale = Vector2(0.12, 0.12)
+script = ExtResource("3_0116d")
+horizontal_only = true
+
+[node name="Camera2D" type="Camera2D" parent="kodama" unique_id=1414184855]
+position = Vector2(3033.3333, 3449.9998)
+scale = Vector2(8.333333, 8.333333)
+zoom = Vector2(1.5, 1.5)
+limit_left = 11
+limit_top = 6
+limit_right = 1145
+limit_bottom = 645
+
+[node name="Sprite2D" type="Sprite2D" parent="kodama" unique_id=98188509]
+visible = false
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("4_kyjep")
+region_enabled = true
+region_rect = Rect2(874.4079, 70.92819, 404.35797, 758.5886)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="kodama" unique_id=670848490]
+shape = SubResource("RectangleShape2D_8op1d")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="kodama" unique_id=1537851645]
+texture_filter = 1
+position = Vector2(2983.3335, 4600.0005)
+scale = Vector2(9.014323, 8.696434)
+sprite_frames = SubResource("SpriteFrames_rfnkb")
+animation = &"walk"
+offset = Vector2(0, -65)
+
+[node name="StoneArea" type="Area2D" parent="." unique_id=1759835962]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StoneArea" unique_id=1177366659]
+position = Vector2(532, 539.5)
+shape = SubResource("RectangleShape2D_kvgk3")
