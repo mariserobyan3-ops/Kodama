@@ -8,6 +8,5 @@ func _ready() -> void:
 func _on_body_entered(body: Node2D) -> void:
 	if triggered or body.name != "Player":
 		return
-
 	triggered = true
-	get_tree().change_scene_to_file.call_deferred("res://cave.tscn")
+	get_node("/root/Transition").change_scene("res://cave.tscn")

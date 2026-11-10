@@ -185,7 +185,7 @@ size = Vector2(153, 123)
 size = Vector2(175, 167)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dnhvd"]
-size = Vector2(367, 93.25)
+size = Vector2(367, 93)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_78gyg"]
 size = Vector2(59, 246)
@@ -194,13 +194,13 @@ size = Vector2(59, 246)
 size = Vector2(247, 92)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wkdm5"]
-size = Vector2(60, 396)
+size = Vector2(66, 396)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2qy3"]
 size = Vector2(217, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3ayon"]
-size = Vector2(328, 88)
+size = Vector2(328, 96)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xifcx"]
 size = Vector2(59, 825)
@@ -212,7 +212,7 @@ size = Vector2(421, 84)
 size = Vector2(56, 392)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8eeko"]
-size = Vector2(194, 85)
+size = Vector2(194, 96)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q41cu"]
 size = Vector2(173, 89.9375)
@@ -230,22 +230,22 @@ size = Vector2(182, 76)
 size = Vector2(53, 226)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f1uny"]
-size = Vector2(371, 86)
+size = Vector2(371, 93)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_giyry"]
-size = Vector2(56, 205)
+size = Vector2(66, 205)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nin5h"]
-size = Vector2(359, 83)
+size = Vector2(359, 90)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5nj53"]
-size = Vector2(231, 89)
+size = Vector2(238, 89)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yo4bc"]
 size = Vector2(35, 257)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_khpb5"]
-size = Vector2(156, 90.21094)
+size = Vector2(164, 90.21094)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d5k8a"]
 size = Vector2(104, 81)
@@ -283,6 +283,7 @@ size = Vector2(97, 147)
 [node name="Cave" type="Node2D" unique_id=1328481075]
 
 [node name="MazeBackground" type="Sprite2D" parent="." unique_id=1158729489]
+self_modulate = Color(0.66499394, 0.64584357, 0.5500918, 1)
 y_sort_enabled = true
 texture_filter = 1
 position = Vector2(567, 395)
@@ -325,7 +326,7 @@ position = Vector2(27.5, -148.5)
 shape = SubResource("RectangleShape2D_33p5i")
 
 [node name="Wall01" type="CollisionShape2D" parent="borders" unique_id=2098369768]
-position = Vector2(442.5, 48.625)
+position = Vector2(442.5, 48.5)
 shape = SubResource("RectangleShape2D_dnhvd")
 
 [node name="Wall02" type="CollisionShape2D" parent="borders" unique_id=1954618321]
@@ -337,7 +338,7 @@ position = Vector2(826.5, 51)
 shape = SubResource("RectangleShape2D_djsbv")
 
 [node name="Wall04" type="CollisionShape2D" parent="borders" unique_id=17447865]
-position = Vector2(921, 201)
+position = Vector2(918, 201)
 shape = SubResource("RectangleShape2D_wkdm5")
 
 [node name="Wall05" type="CollisionShape2D" parent="borders" unique_id=1731760982]
@@ -361,7 +362,7 @@ position = Vector2(280, 511)
 shape = SubResource("RectangleShape2D_rxq2d")
 
 [node name="Wall10" type="CollisionShape2D" parent="borders" unique_id=251681755]
-position = Vector2(854, 356.5)
+position = Vector2(854, 362)
 shape = SubResource("RectangleShape2D_8eeko")
 
 [node name="Wall11" type="CollisionShape2D" parent="borders" unique_id=755039383]
@@ -385,19 +386,19 @@ position = Vector2(540.5, 577)
 shape = SubResource("RectangleShape2D_jubql")
 
 [node name="Wall17" type="CollisionShape2D" parent="borders" unique_id=252182211]
-position = Vector2(699.5, 647)
+position = Vector2(699.5, 650.5)
 shape = SubResource("RectangleShape2D_f1uny")
 
 [node name="Wall18" type="CollisionShape2D" parent="borders" unique_id=2033351910]
-position = Vector2(857, 706.5)
+position = Vector2(862, 706.5)
 shape = SubResource("RectangleShape2D_giyry")
 
 [node name="Wall15" type="CollisionShape2D" parent="borders" unique_id=1148289573]
-position = Vector2(550.5, 801.5)
+position = Vector2(550.5, 798)
 shape = SubResource("RectangleShape2D_nin5h")
 
 [node name="Wall19" type="CollisionShape2D" parent="borders" unique_id=693076422]
-position = Vector2(762.5, 512.5)
+position = Vector2(766, 512.5)
 shape = SubResource("RectangleShape2D_5nj53")
 
 [node name="Wall20" type="CollisionShape2D" parent="borders" unique_id=136483119]
@@ -405,7 +406,7 @@ position = Vector2(665, 429.5)
 shape = SubResource("RectangleShape2D_yo4bc")
 
 [node name="Wall21" type="CollisionShape2D" parent="borders" unique_id=1769602659]
-position = Vector2(1043, 514.10547)
+position = Vector2(1039, 514.10547)
 shape = SubResource("RectangleShape2D_khpb5")
 
 [node name="Wall22" type="CollisionShape2D" parent="borders" unique_id=209595541]
